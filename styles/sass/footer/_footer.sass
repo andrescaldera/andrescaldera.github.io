@@ -10,9 +10,18 @@ footer
       font-size: 1.2rem
     .sm-container
       display: flex
-      width: 50%
+      width: 30%
       font-size: 1.8rem
       justify-content: space-around
+      a
+        text-decoration: none
+        color: inherit
+        transition: all .2s ease-in-out
+        &:focus
+          text-decoration: none
+          color: inherit
+        &:hover
+          color: $orange
 
 .copyright
   display: flex

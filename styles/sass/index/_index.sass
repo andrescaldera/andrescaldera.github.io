@@ -1,5 +1,4 @@
-.wrapper-body
-  margin: 15px 100px 0
+.body-index
   display: flex
   justify-content: space-between
   flex-direction: row
@@ -10,26 +9,22 @@ main
   flex-direction: column
   margin-right: 45px
 
-// .hola
-//   // height: 200px
-//   // width: 100px
-//   flex: 0 0 300px
-//   background-color: yellow
-
 @import "_index-feature"
 
 @import "_index-aside"
 
 
+
+// media queries----------------
 @media (max-width: 1366px)
   body
     // background: transparent
 @media (min-width: 1367px)
-  .wrapper-body
-    margin: 40px 100px 0
+  .wrapper-body-index
+    margin: 0 100px 0
 
 @media (max-width: 1090px)
-  .wrapper-body
+  .wrapper-body-index
     flex-direction: column
     justify-content: center
   main
@@ -37,5 +32,5 @@ main
 
 // xs-devices
 @media (max-width: 543px)
-  .wrapper-body
-    margin: 30px 50px 0
+  .wrapper-body-index
+    margin: 0 50px 0
