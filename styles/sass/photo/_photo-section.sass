@@ -3,33 +3,64 @@
   flex-wrap: wrap
   justify-content: space-between
   margin: 0 -15px
-  .photo-item
-    width: 350px
-    margin: 0 15px 3%
 
-    figure
+.photo-item
+  flex: .2 1 320px
+  margin: 0 15px 30px
+  display: flex
+  flex-direction: column
+  justify-content: space-between
+
+  .photo-gallery
+    width: 100%
+    height: 280px
+    margin: 0 0 10px
+    .photo-img-link
       width: 100%
-      display: flex
-      flex-direction: column
-      margin: 0
+      height: 100%
       img
-        margin: 0
         width: 100%
-        height: 300px
+        height: 100%
         border-radius: 4px
-      figcaption
-        display: flex
-        flex-direction: column
-        margin: 0
-        text-align: justify
-        a
-          text-decoration: none
-          color: $orangeLight
-          margin: 10px 0
+
+  .photo-gallery-description
+    width: 100%
+    display: flex
+    flex-direction: column
+    margin: 0
+    text-align: justify
+    a
+      text-decoration: none
+      color: $orangeLight
+      margin: 10px 0
+    p
+      margin: o
+
+.photo-filler
+  flex: .2 1 320px
+  height: 0
+  border: 0
+  margin: 0 15px
 
 
-  .photo-filler
-    width: 350px
-    height: 0
-    border: 0
-    margin: 0 15px
+
+@media (max-width: 886px)
+  .photo-section
+    justify-content: center
+
+
+@media (max-width: 767px)
+  .photo-section
+    justify-content: center
+    .photo-item
+      flex: .1 1 80%
+      .photo-gallery
+        height: 300px
+
+@media (max-width: 543px)
+  .photo-section
+    justify-content: center
+    .photo-item
+      flex: .1 1 100%
+      .photo-gallery
+        height: 320px
