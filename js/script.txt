@@ -1,0 +1,123 @@
+// if ($(that).prev(".gallery-item").length > 0) {
+//   // $(".right-nav i").css("color", "#FF8A7B");
+//   // $(".right-nav").on();
+//   $("#picture").children().remove();
+//   $(that).prev().children("img").clone().appendTo("#picture");
+//   $("#picture").children().css({"position": "absolute","display": "block","max-width": "100%","max-height": "100%","left": "0","right": "0","top": "0","bottom": "0","margin": "auto"});
+//   that = $(that).prev();
+//   fCaption = $(that).find("figcaption").html();
+//   $("#figCaption").html(fCaption);
+// // if ($(that).prev(".gallery-item").length > 0) {
+// //   $(".left-nav i").css("color", "#FF8A7B");
+// //   $(".left-nav").on("click");
+// }
+
+// if ($(this).prev(".gallery-item").length > 0) {
+//   $(".left-nav i").css("color", "#FF8A7B");
+//   // $(".left-nav").on("click");
+// } else {
+//   $(".left-nav i").css("color", "gray");
+//   // $(".left-nav").off("click");
+// }
+// if ($(this).next(".gallery-item").length > 0) {
+//   $(".right-nav i").css("color", "#FF8A7B");
+//   // $(".right-nav").on("click");
+// } else {
+//   $(".right-nav i").css("color", "gray");
+//   // $(".right-nav").off("click");
+// }
+if ($(that).prev(".gallery-item").length > 0) {
+  $(this).children("img").clone().appendTo("#picture");
+  fCaption = $(this).find("figcaption").html();
+  $("#figCaption").html(fCaption);
+  $("#picture").children().css({"position": "absolute","display": "block","max-width": "100%","max-height": "100%","left": "0","right": "0","top": "0","bottom": "0","margin": "auto"});
+} else {
+  $(".left-nav").hide();
+  $(".left-nav-sup").show();
+}
+if ($(that).next(".gallery-item").length > 0) {
+  $(this).children("img").clone().appendTo("#picture");
+  fCaption = $(this).find("figcaption").html();
+  $("#figCaption").html(fCaption);
+  $("#picture").children().css({"position": "absolute","display": "block","max-width": "100%","max-height": "100%","left": "0","right": "0","top": "0","bottom": "0","margin": "auto"});
+} else {
+  $(".right-nav").hide();
+  $(".right-nav-sup").show();
+}
+
+$(".left-nav").click(function(){
+  // $(".right-nav").show();
+  // $(".right-nav-sup").hide();
+  if ($(that).prev(".gallery-item").length > 0) {
+    $("#picture").children().remove();
+    $(that).prev().children("img").clone().appendTo("#picture");
+    $("#picture").children().css({"position": "absolute","display": "block","max-width": "100%","max-height": "100%","left": "0","right": "0","top": "0","bottom": "0","margin": "auto"});
+    that = $(that).prev();
+    fCaption = $(that).find("figcaption").html();
+    $("#figCaption").html(fCaption);
+  // } else {
+  //   $(".left-nav").hide();
+  //   $(".left-nav-sup").show();
+  // }
+  // if ($(that).prev(".gallery-item").length > 0) {
+  // } else {
+  //   $(".left-nav").hide();
+  //   $(".left-nav-sup").show();
+  }
+});
+
+$(".right-nav").click(function(){
+  // $(".left-nav").show();
+  // $(".left-nav-sup").hide();
+  if ($(that).next(".gallery-item").length > 0) {
+    $("#picture").children().remove();
+    $(that).next().children("img").clone().appendTo("#picture");
+    $("#picture").children().css({"position": "absolute","display": "block","max-width": "100%","max-height": "100%","left": "0","right": "0","top": "0","bottom": "0","margin": "auto"});
+    that = $(that).next();
+    fCaption = $(that).find("figcaption").html();
+    $("#figCaption").html(fCaption);
+    console.log(that);
+  // } else {
+  //   $(".right-nav").hide();
+  //   $(".right-nav-sup").show();
+  // }
+  // if ($(that).next(".gallery-item").length > 0) {
+  // } else {
+  //   $(".right-nav").hide();
+  //   $(".right-nav-sup").show();
+  }
+});
+
+
+
+
+
+
+
+var imgs = document.getElementsByClassName("img-slide");
+var thisScr = this.src;
+var thisPosition = 0;
+for (var i = 0; i < imgs.length; i++) {
+  if (thisScr == imgs[i].src) {
+    thisPosition = i;
+    break;
+  }
+}
+var imgNumber = thisPosition;
+var imgLength = imgs.length-1;
+
+document.getElementById('left-nav').addEventListener('click', changeImage(-1));
+document.getElementById('right-nav').addEventListener('click', changeImage(1));
+
+function changeImage(n){
+  imgNumber += n;
+  console.log(imgNumber);
+
+  if (imgNumber > imgLength) {
+    imgNumber -= 1;
+
+  }
+  var picSrc = document.getElementById('picture').firstChild.src;
+  picSrc = imgs[imgNumber].src;
+  console.log(picSrc);
+}

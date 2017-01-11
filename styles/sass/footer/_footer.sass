@@ -1,28 +1,48 @@
 footer
-  .social-media
+  .footer
     display: flex
     flex-direction: row
-    justify-content: center
+    justify-content: space-around
     align-items: center
     border-top: 2px solid $footerBgGray
-    height: 50px
-    .sm-title
-      font-size: 1.2rem
-    .sm-container
+    .declaration
+      font-size: 1.3rem
+      line-height: 1.61803398875
+      font-style: italic
+    .social-media-container
       display: flex
-      width: 30%
-      font-size: 1.8rem
-      justify-content: space-around
-      a
-        text-decoration: none
-        color: inherit
-        transition: all .2s ease-in-out
-        &:focus
+      flex-direction: column
+      width: 180px
+      justify-content: center
+      align-items: center
+      .social-media
+        display: flex
+        width: 100%
+        font-size: 2.5rem
+        justify-content: space-between
+        margin: 0 0 15px
+        a
           text-decoration: none
           color: inherit
-        &:hover
-          color: $orange
-
+          transition: all .2s ease-in-out
+          &:focus
+            text-decoration: none
+            color: inherit
+          &:hover
+            color: $orange
+    .newsletter
+      display: flex
+      flex-direction: column
+      align-self: flex-start
+      div
+        background-color: $footerBgLight
+        height: 30px
+        width: 100%
+.social-media-title,
+.newsletter h3
+  font-family: 'Pacifico', cursive
+  font-size: 1.9rem
+  margin: 15px 0
 .copyright
   display: flex
   justify-content: center

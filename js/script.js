@@ -32,29 +32,22 @@ $(document).ready(function(){
 
   // preview photo
   $(".preview").hide();
-  $(".gallery-item").click(function(){
+
+  $(".gallery-item").children("img").on("click", function(){
     $(".preview").show();
     $("body").css("overflow", "hidden");
+    $(".right-nav-sup").hide();
+    $(".left-nav-sup").hide();
 
-    $(this).children("img").clone().appendTo("#picture");
+    var that = this;
+    console.log(that);
 
-    $(".left-nav").click(function(){
-      $("#picture").children().remove();
-      $(this).prev().children("img").clone().appendTo("#picture");
-    });
-    $(".right-nav").click(function(){
-      $("#picture").children().remove();
-      $(this).next().children("img").clone().appendTo("#picture");
-    });
+    $(this).clone().appendTo("#picture");
 
-    var fCaption = $(this).find("figcaption").html();
-    console.log(fCaption);
+    var fCaption = $(this).next("figcaption").html();
     $("#figCaption").html(fCaption);
 
     $("#picture").children().css({"position": "absolute","display": "block","max-width": "100%","max-height": "100%","left": "0","right": "0","top": "0","bottom": "0","margin": "auto"});
-    $("#picture").children().click(function(){
-      $("#picture").children().css("transform","scale(1)");
-    });
 
     $(".close-preview").click(function(){
       $(".preview").hide();
