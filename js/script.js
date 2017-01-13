@@ -30,32 +30,27 @@ $(document).ready(function(){
   });
   // end parallax
 
-  // preview photo
-  $(".preview").hide();
+  // justifiedGallery
+  $("#galleryContainer").justifiedGallery({
+    rowHeight : 300,
+    lastRow : 'nojustify',
+    margins : 3,
+    rel: "gallery"
+  });
+  // end justifiedGallery
+  // swipebox
+  $('.swipebox').swipebox({
+    removeBarsOnMobile : true, // false will show top navigation bar on mobile devices
+    hideCloseButtonOnMobile : false, // true will hide the close button on mobile devices
+    //removeBarsOnMobile : true,  false will show bottom bar on mobile devices
+    hideBarsDelay : 20000000, // delay before hiding bars on desktop
+    videoMaxWidth : 1140,
+    loopAtEnd: false,
+    autoplayVideos: false,
+    useSVG: true
+  });
+  // end swipebox
 
-  $(".gallery-item").children("img").on("click", function(){
-    $(".preview").show();
-    $("body").css("overflow", "hidden");
-    $(".right-nav-sup").hide();
-    $(".left-nav-sup").hide();
-
-    var that = this;
-    console.log(that);
-
-    $(this).clone().appendTo("#picture");
-
-    var fCaption = $(this).next("figcaption").html();
-    $("#figCaption").html(fCaption);
-
-    $("#picture").children().css({"position": "absolute","display": "block","max-width": "100%","max-height": "100%","left": "0","right": "0","top": "0","bottom": "0","margin": "auto"});
-
-    $(".close-preview").click(function(){
-      $(".preview").hide();
-      $("body").css("overflow", "auto");
-      $("#picture").children().remove();
-    });
-
-  });// end preview photo
 
 
 });

@@ -15,7 +15,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <!-- animatecss -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" />
+
+    <!-- justifiedGallery -->
+    <link rel="stylesheet" href="../../styles/css/justifiedGallery.css">
+
+    <!-- swipebox -->
+    <link rel="stylesheet" href="../../styles\css\swipebox.css">
 
     <link rel="stylesheet" href="../../styles/css/styles.css">
   </head>
@@ -66,80 +73,32 @@
 
           <h2>/ Gallery-1</h2>
 
-          <div class="gallery-container">
+          <div class="gallery-container" id="galleryContainer">
 
-            <figure class="gallery-item">
-              <img class="img-slide" src="../../imgs\fireSky\eiffelTowerSunset-1.jpg" alt="">
-              <figcaption>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. #foto #fino #depinga z 1
-              </figcaption>
-            </figure>
-            <figure class="gallery-item">
-              <img class="img-slide" src="../../imgs\fireSky\paris1080-4.jpg" alt="">
-              <figcaption>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. #foto #fino #depinga #holaa 2
-              </figcaption>
-            </figure>
-            <figure class="gallery-item">
-              <img class="img-slide" src="../../imgs\fireSky\fireSky-1.jpg" alt="">
-              <figcaption>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. #foto #fino #depinga 3
-              </figcaption>
-            </figure>
-            <figure class="gallery-item">
-              <img class="img-slide" src="../../imgs\fireSky\parisSunset.jpg" alt="">
-              <figcaption>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. #foto #fino #depinga 4
-              </figcaption>
-            </figure>
-            <figure class="gallery-item">
-              <img class="img-slide" src="../../imgs\fireSky\londrs-1.jpg" alt="">
-              <figcaption>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. #foto #fino #depinga 5
-              </figcaption>
-            </figure>
-            <figure class="gallery-item">
-              <img class="img-slide" src="../../imgs\fireSky\Sunset Boat-1.jpg" alt="">
-              <figcaption>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. #foto #fino #depinga 6
-              </figcaption>
-            </figure>
-
-            <div class="filler-item"></div>
+            <a title="eiffelTowerSunset" rel="gallery-1" href="../../imgs/fireSky/eiffelTowerSunset-1.jpg" class="swipebox">
+              <img class="slideImg" src="../../imgs/fireSky/eiffelTowerSunset-1.jpg" alt="">
+            </a>
+            <a title="paris" rel="gallery-1" href="../../imgs/fireSky/paris1080-4.jpg" class="swipebox">
+              <img class="slideImg" src="../../imgs/fireSky/paris1080-4.jpg" alt="">
+            </a>
+            <a title="fireSk" rel="gallery-1" href="../../imgs/fireSky/fireSky-1.jpg" class="swipebox">
+              <img class="slideImg" src="../../imgs/fireSky/fireSky-1.jpg" alt="">
+            </a>
+            <a title="asd" rel="gallery-1" href="../../imgs/fireSky/parisSunset.jpg" class="swipebox">
+              <img class="slideImg" src="../../imgs\fireSky\parisSunset.jpg" alt="">
+            </a>
+            <a title="df" rel="gallery-1" href="../../imgs\fireSky\londrs-1.jpg" class="swipebox">
+              <img class="slideImg" src="../../imgs\fireSky\londrs-1.jpg" alt="">
+            </a>
+            <a title="fg" rel="gallery-1" href="../../imgs\fireSky\Sunset Boat-1.jpg" class="swipebox">
+              <img class="slideImg" src="../../imgs\fireSky\Sunset Boat-1.jpg" alt="">
+            </a>
 
           </div>
 
           <div class="gallery-back-button">
             <a href="../../photo.html">Back to Galleries</a>
           </div>
-
-          <!-- .preview -->
-          <div class="preview">
-            <div class="close-preview">
-              <i class="material-icons">close</i>
-            </div>
-            <div class="left-nav" id="left-nav">
-              <i class="material-icons">chevron_left</i>
-            </div>
-            <div class="left-nav-sup"></div>
-            <div class="picture">
-              <figure class="" id="picture">
-
-              </figure>
-              <div class="fig-caption" id="figCaption">
-
-              </div>
-            </div>
-            <div class="right-nav" id="right-nav">
-              <i class="material-icons">chevron_right</i>
-            </div>
-            <!-- <div class="fig-caption" id="figCaption">
-
-            </div> -->
-
-            <div class="right-nav-sup"></div>
-          </div>
-          <!-- end .preview -->
 
         </div><!-- end .galley -->
       </div><!-- end .wrapper-body -->
@@ -178,11 +137,18 @@
 
     <!--************* JavaScript *************-->
     <!-- jquery -->
-    <script   src="https://code.jquery.com/jquery-3.1.1.min.js"   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="   crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <!-- <script   src="https://code.jquery.com/jquery-3.1.1.min.js"   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="   crossorigin="anonymous"></script> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 
     <!-- fontawesome -->
     <script src="https://use.fontawesome.com/76e0168547.js"></script>
+
+    <!-- justifiesGallery -->
+    <script src="../../js/tools/jquery.justifiedGallery.js">
+    </script>
+
+    <!-- swipebox -->
+    <script src="../../js/tools/jquery.swipebox.min.js"></script>
 
     <!-- script -->
     <script src="../../js/script.js"></script>
