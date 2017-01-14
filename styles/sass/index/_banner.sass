@@ -1,17 +1,32 @@
 .banner
   width: 100%
+  padding: 0 100px
   overflow: hidden
-  display: flex
 
   .banner-img
     margin: 0
-    height: 25vw
+    height: 41vw
     img
       width: 100%
       height: auto
-      margin-top: -80px
+      margin-top: -5vw
 
 @media (min-width: 1370px)
   .banner
     .banner-img
-      height: 340px
+      height: 43vw
+      img
+        margin-top: -5vw
+
+@media (max-width: 991px)
+  .banner
+    .banner-img
+      height: 40vw
+      img
+        margin-top: -4vw
+@media (max-width: 767px)
+  .banner
+    padding: 0 50px
+@media (max-width: 543px)
+    .banner
+      padding: 0 25px
