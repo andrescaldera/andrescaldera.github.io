@@ -39,8 +39,8 @@
             </button>
             <ul>
               <li><a href="photo.html" class="nav-link">photo</a></li>
-              <li><a href="film.html" class="nav-link">film</a></li>
-              <li><a href="blog.html" class="nav-link">blog</a></li>
+              <!-- <li><a href="film.html" class="nav-link">film</a></li>
+              <li><a href="blog.html" class="nav-link">blog</a></li> -->
               <li><a href="contact.html" class="nav-link">contact</a></li>
             </ul>
           </nav>
@@ -53,12 +53,12 @@
           <li>
             <a class="mobile-nav-link" href="photo.html">photo</a>
           </li>
-          <li>
+          <!-- <li>
             <a class="mobile-nav-link" href="film.html">film</a>
           </li>
           <li>
             <a class="mobile-nav-link" href="blog.html">blog</a>
-          </li>
+          </li> -->
           <li>
             <a class="mobile-nav-link" href="contact.html">contact</a>
           </li>
@@ -67,15 +67,24 @@
       <!-- mobile-nav -->
 
       <!-- body -->
-      <section class="banner">
-        <figure class="banner-img">
-          <img src="imgs/banner/Pics_Banner-1.jpg" alt="" class="slides">
+      <section class="banner" id="slideshow">
+        <div class="banner-img">
+          <img src="imgs/banner/Pics_Banner-1.1.jpg" alt="" class="slides">
+        </div>
+        <div class="banner-img">
           <img src="imgs/banner/Pics_Banner-2.jpg" alt="" class="slides">
+        </div>
+        <div class="banner-img">
           <img src="imgs/banner/Pics_Banner-3.jpg" alt="" class="slides">
+        </div>
+        <div class="banner-img">
           <img src="imgs/banner/Pics_Banner-4.jpg" alt="" class="slides">
+        </div>
+        <div class="banner-img">
           <img src="imgs/banner/Pics_Banner-5.jpg" alt="" class="slides">
-        </figure>
+        </div>
       </section>
+
       <div class="wrapper-body wrapper-body-index">
 
         <section class="main">
@@ -136,6 +145,15 @@
 
           <aside>
             <div class="aside-wrapper">
+              <h2 class="feed-title">Feed</h2>
+              <div class="feed-container" id="feedContainer">
+                <div class="feed-images"></div>
+                <div class="feed-images"></div>
+                <div class="feed-images"></div>
+                <div class="feed-images"></div>
+                <div class="feed-images"></div>
+                <div class="feed-images"></div>
+              </div>
             </div>
           </aside>
         </section>
@@ -176,6 +194,8 @@
 
     </div>
 
+
+
     <!--************* JavaScript *************-->
     <!-- jquery -->
     <script   src="https://code.jquery.com/jquery-3.1.1.min.js"   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="   crossorigin="anonymous"></script>
@@ -184,7 +204,7 @@
     <script src="https://use.fontawesome.com/76e0168547.js"></script>
 
     <!-- instafeed -->
-    <!-- <script src="js/tools/instafeed.min.js"></script> -->
+    <script src="js/tools/instafeed.min.js"></script>
 
     <!-- justifiesGallery -->
     <script src="js/tools/jquery.justifiedGallery.js">
@@ -192,7 +212,6 @@
 
     <!-- script -->
     <script src="js/script.js"></script>
-    <script src="js\carousel.js"></script>
 
   </body>
 </html>
