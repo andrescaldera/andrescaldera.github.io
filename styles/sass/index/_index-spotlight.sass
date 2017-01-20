@@ -1,0 +1,84 @@
+.spotlight-section
+  display: flex
+  flex-direction: column
+  margin: 35px 0 100px
+  margin: 35px 50px 100px 0
+  max-width: 100%
+  h2
+    text-align: center
+  hr
+    border-top: 1px solid rgba(54, 54, 61, .3)
+    height: 0
+    width: 100%
+    margin: 15px 0
+    align-self: center
+
+.spotlight-item
+  display: flex
+  // margin-bottom: 10px
+  figure
+    width: 206px
+    height: 135px
+    margin: 0
+    margin-right: 10px
+    a
+      display: block
+      width: 100%
+      height: 100%
+      img
+        display: block
+        width: 100%
+        height: 100%
+        border-radius: 4px
+  .content
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+    width: 70%
+    .title
+      font-weight: bold
+      color: $bold
+      font-size: 1.1rem
+    a
+      text-decoration: none
+      color: $orangeLight
+      // font-weight: 600
+      &:hover
+        color: $orangeLight
+        font-weight: bold
+    .description
+      margin: 0
+      align-self: flex-end
+      text-align: justify
+      font-size: .9rem
+      line-height: 1.61803398875
+
+
+@media (max-width: 1090px)
+    .spotlight-section
+      width: 100%
+      flex: 1
+
+@media (max-width: 767px)
+  .spotlight-section
+    align-items: center
+    h2
+
+  .spotlight-item
+    flex-direction: column
+    align-items: center
+    figure
+      margin-right: 0
+      width: 100%
+      height: 70%
+      a
+        img
+          width: 100%
+          height: 100%
+    .content
+      width: 90%
+      margin-top: 20px
+      > *
+        margin-top: 10px
+      .description
+        margin-top: 10px
