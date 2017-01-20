@@ -38,7 +38,8 @@ $(document).ready(function(){
 
     $(".banner-img").css({
       // "transform" : "translate(0px, "+ wScroll/8 + "%)"
-      "transform" : "translate(0px, "+ wScroll/26 + "%)"
+      // "transform" : "translate(0px, "+ wScroll/26 + "%)"
+      "top" : ""+wScroll/2+"px"
     });
   });
   // end parallax
