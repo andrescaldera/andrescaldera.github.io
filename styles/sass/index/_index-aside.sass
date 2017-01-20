@@ -1,22 +1,29 @@
-aside
-  flex: 1 0 400px
+.insta-feed-container
+  flex: 0 0 468px
   // height: 100%
   // background-color: pink
   display: flex
   flex-direction: column
-  justify-content: center
+  margin-top: 35px
   .aside-wrapper
     display: flex
     flex-direction: column
-    height: 400px
     // flex: 1 1 0px
-    background-color: lightblue
-
+    .insta-feed
+      display: flex
+      flex-wrap: wrap
+      justify-content: space-between
+      a
+        width: 230px
+        height: 164px
+        margin: 0 0 10px
+        img
+          width: 100%
 
 
 
 @media (max-width: 1090px)
-    aside
-      // height: 100px
-      flex: 1 350px
-      margin: 10px 0
+  .insta-feed-container
+    // height: 100px
+    flex: 0 0 350px
+    margin: 10px 0
