@@ -4,21 +4,21 @@
   // background-color: pink
   display: flex
   flex-direction: column
-  margin-top: 35px
-  .aside-wrapper
+  .feed-title
+    text-align: center
+  .insta-feed
     display: flex
-    flex-direction: column
-    // flex: 1 1 0px
-    .feed-title
-      text-align: center
-    .insta-feed
-      display: flex
-      flex-wrap: wrap
-      justify-content: center
+    flex-wrap: wrap
+    justify-content: center
+    div
+      width: 210px
+      height: 164px
+      margin: 0 5px 10px
       a
-        width: 210px
-        height: 164px
-        margin: 0 5px 10px
+        opacity: .8
+        transition: opacity .2s ease-in-out
+        &:hover
+          opacity: 1
         img
           width: 100%
           height: 100%
@@ -27,17 +27,36 @@
 @media (max-width: 1290px)
   .insta-feed-container
     flex: 0 0 420px
-    .aside-wrapper
-      .insta-feed
-        a
-          width: 200px
-          height: 154px
-          margin: 0 5px 10px
-
-
+    .insta-feed
+      div
+        width: 200px
+        height: 154px
+        margin: 0 5px 10px
 
 @media (max-width: 1090px)
   .insta-feed-container
-    // height: 100px
-    flex: 0 0 350px
     margin: 10px 0
+    align-items: center
+    .insta-feed
+      width: 86%
+
+@media (max-width: 830px)
+  .insta-feed-container
+    flex: 0
+    .insta-feed
+      width: 100%
+
+@media (max-width: 746px)
+  .insta-feed-container
+    width: 100%
+    .insta-feed
+      div
+        width: 80%
+        height: 100%
+
+@media (max-width: 543px)
+  .insta-feed-container
+    width: 100%
+    .insta-feed
+      div
+        width: 100%

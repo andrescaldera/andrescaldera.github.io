@@ -1,16 +1,16 @@
 header
   border-bottom: 2px solid $footerBgGray
-  font-family: 'Arsenal', sans-serif
+  // font-family: 'Arsenal', sans-serif
+  font-family: 'Julius Sans One', sans-serif
   padding-top: 15px
 
 .header
   display: flex
-  margin: 15px 100px
+  margin: 15px 5%
   justify-content: space-between
   height: 35px
   .logo
     display: flex
-    font-family: 'Julius Sans One', sans-serif
     a
       display: flex
       align-items: center
@@ -31,6 +31,11 @@ header
         .logo-2-2
           font-size: 1.8rem
           margin: 0 0 -5px
+    .breadcrum
+      align-self: flex-end
+      font-size: 1.4rem
+      line-height: 0.7
+      margin: 0 0 0 8px
 
   .nav
     max-width: 200px
@@ -51,9 +56,10 @@ header
           text-decoration: none
           color: $footerBgGray
           text-transform: uppercase
-          font-size: 1.2rem
+          font-size: 1.1rem
           border-bottom: 0 solid $grayLight
-          transition: all .2s cubic-bezier(0.4, 0, 1, 1) .1s
+          transition: border .1s cubic-bezier(0.4, 0, 1, 1) .1s
+          padding: 0 0 5px
           &:hover
             border-bottom: 2px solid $orangeLight
         .active
@@ -122,6 +128,9 @@ header
 
 
 
+@media (min-width: 1366px)
+  .header
+    margin: 15px 5%px
 // l-to-xl-devices
 @media (min-width: 992px)
   .header
@@ -162,36 +171,20 @@ header
       ul
         display: none
 
-
-@media (min-width: 1366px)
-  .header
-    margin: 15px 100px
-
-// s-devices
 @media (max-width: 767px)
   .header
-    margin: 15px 50px
+    margin: 15px 4%
     .nav
       ul
         display: none
-// xs-devices
 @media (max-width: 543px)
   .header
-    margin: 15px 25px
+    margin: 15px 4%
     .logo
       .logo-1
         display: none
       .logo-2
-        width: 50vw
+        // width: 50vw
     .nav
       ul
         display: none
-
-
-
-
-
-
-
-
-// asfasdasd
