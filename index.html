@@ -76,8 +76,8 @@
       <!-- body -->
       <!-- banner -->
       <div>
-        <hr class="banner-hr-top-1">
-        <hr class="banner-hr-top-2">
+        <hr class="banner-hr-top">
+        <hr class="banner-hr-bottom">
       </div>
       <section class="banner" id="slideshow">
         <div class="banner-img">
@@ -94,8 +94,8 @@
         </div>
       </section>
       <div>
-        <hr class="banner-hr-bottom-1">
-        <hr class="banner-hr-bottom-2">
+        <hr class="banner-hr-top">
+        <hr class="banner-hr-bottom bhrb">
       </div>
       <!-- end banner -->
 
@@ -106,13 +106,13 @@
             <h2>Spotlight</h2>
 
             <div class="spotlight-item">
-              <figure>
+              <figure class="hover">
                 <a href="photo.html">
-                  <img src="imgs/webSamples/Samples_web_70Q-6.jpg" alt="Photography">
+                  <img class="img" src="imgs/webSamples/Samples_web_70Q-6.jpg" alt="Photography">
                 </a>
               </figure>
               <div class="content">
-                <div class="title"><a href="">Title of gallery</a></div>
+                <div class="title"><a href="" class="link-hover">Title of gallery</a></div>
                 <p class="description">
                   Collection of digitally enables corners and intersection of timeless places built by men.
                 </p>
@@ -122,11 +122,11 @@
             <hr>
 
             <div class="spotlight-item">
-              <figure>
-                <a href="#"><img src="imgs/fireSky/paris1080-4.jpg" alt="Photography"></a>
+              <figure class="hover">
+                <a href="#"><img class="img" src="imgs/fireSky/paris1080-4.jpg" alt="Photography"></a>
               </figure>
               <div class="content">
-                <div class="title"><a href="">Title of gallery</a></div>
+                <div class="title"><a href="" class="link-hover">Title of gallery</a></div>
                 <p class="description">
                   Collection of digitally enables corners and intersection of timeless places built by men.
                 </p>
@@ -136,11 +136,11 @@
             <hr>
 
             <div class="spotlight-item">
-              <figure>
-                <a href="#"><img src="imgs/video/skatingManhattan.jpg" alt="Photography"></a>
+              <figure class="hover">
+                <a href="#"><img class="img" src="imgs/video/skatingManhattan.jpg" alt="Photography"></a>
               </figure>
               <div class="content">
-                <div class="title"><a href="">Title of gallery</a></div>
+                <div class="title"><a href="" class="link-hover">Title of gallery</a></div>
                 <p class="description">
                   Collection of digitally enables corners and intersection of timeless places built by men.
                 </p>
@@ -155,6 +155,9 @@
             <h2 class="feed-title">Insta-feed</h2>
             <div class="insta-feed" id="instafeed">
             </div>
+            <div class="more-button">
+              <a href="#" class="link-hover">See more on Instagram</a>
+            </div>
           </div>
         </section>
 
@@ -163,55 +166,104 @@
 
         <section class="index-gallery-container">
           <h2>Galleries</h2>
+
           <div class="index-gallery">
+            <div>
+              <div class="index-gallery-item">
+                <a href="html/photo_galleries/gallery-1.html" class="gallery-link hover">
+                  <img src="imgs/fireSky/fireSky-1.jpg" alt="Gallery image" class="img">
+                </a>
+                <div class="index-gallery-description">
+                  <a href="html/photo_galleries/gallery-1.html" class="link-hover">Fire Skies</a>
+                </div>
+              </div>
+              <div class="index-gallery-item">
+                <a href="#" class="gallery-link hover">
+                  <img src="imgs/webSamples/Samples_web_70Q-1.jpg" alt="Gallery image" class="img">
+                </a>
+                <div class="index-gallery-description">
+                  <a href="#" class="link-hover">Fire Skies</a>
+                </div>
+              </div>
+              <div class="index-gallery-item">
+                <a href="#" class="gallery-link hover">
+                  <img src="imgs/webSamples/Samples_web_70Q-5.jpg" alt="Gallery image" class="img">
+                </a>
+                <div class="index-gallery-description">
+                <a href="#" class="link-hover">Fire Skies</a>
+                </div>
+              </div>
+              <div class="index-gallery-item">
+                <a href="#" class="gallery-link hover">
+                  <img src="imgs/webSamples/Samples_web_70Q-5.jpg" alt="Gallery image" class="img">
+                </a>
+                <div class="index-gallery-description">
+                <a href="#" class="link-hover">Fire Skies</a>
+                </div>
+              </div>
 
+              <!-- gallery-filler -->
+              <div class="index-gallery-filler"></div>
+              <div class="index-gallery-filler"></div>
+              <div class="index-gallery-filler"></div>
+              <div class="index-gallery-filler"></div>
+              <!-- gallery-filler -->
+            </div>
+
+
+
+          </div>
+
+          <div class="index-gallery-mobile">
             <div class="index-gallery-item">
-              <a href="html/photo_galleries/gallery-1.html" class="gallery-link">
-                <img src="imgs/fireSky/fireSky-1.jpg" alt="Gallery image">
+              <a href="html/photo_galleries/gallery-1.html" class="gallery-link hover">
+                <img src="imgs/fireSky/fireSky-1.jpg" alt="Gallery image" class="img">
               </a>
               <div class="index-gallery-description">
-                <a href="html/photo_galleries/gallery-1.html">Fire Skies</a><a href="html/photo_galleries/gallery-1.html">See more</a>
+                <a href="html/photo_galleries/gallery-1.html" class="link-hover">Fire Skies</a>
+              </div>
+            </div>
+            <div class="index-gallery-item">
+              <a href="#" class="gallery-link hover">
+                <img src="imgs/webSamples/Samples_web_70Q-1.jpg" alt="Gallery image" class="img">
+              </a>
+              <div class="index-gallery-description">
+                <a href="#" class="link-hover">Fire Skies</a>
+              </div>
+            </div>
+            <div class="index-gallery-item">
+              <a href="#" class="gallery-link hover">
+                <img src="imgs/webSamples/Samples_web_70Q-5.jpg" alt="Gallery image" class="img">
+              </a>
+              <div class="index-gallery-description">
+              <a href="#" class="link-hover">Fire Skies</a>
+              </div>
+            </div>
+            <div class="index-gallery-item">
+              <a href="#" class="gallery-link hover">
+                <img src="imgs/webSamples/Samples_web_70Q-5.jpg" alt="Gallery image" class="img">
+              </a>
+              <div class="index-gallery-description">
+              <a href="#" class="link-hover">Fire Skies</a>
               </div>
             </div>
 
-            <div class="index-gallery-item">
-              <a href="#" class="gallery-link">
-                <img src="imgs/webSamples/Samples_web_70Q-1.jpg" alt="Gallery image">
-              </a>
-              <div class="index-gallery-description">
-                <a href="#">Fire Skies</a><a href="#">See more</a>
-              </div>
-            </div>
+          </div>
+          <div class="more-button open">
+            <span class="link-hover">Open galleries</span>
+          </div>
+          <div class="more-button close">
+            <span class="link-hover">Close galleries</span>
+          </div>
 
-            <div class="index-gallery-item">
-              <a href="#" class="gallery-link">
-                <img src="imgs/webSamples/Samples_web_70Q-5.jpg" alt="Gallery image">
-              </a>
-              <div class="index-gallery-description">
-              <a href="#">Fire Skies</a><a href="#">See more</a>
-              </div>
+          <div class="more-button-end-gallery">
+            <div class="more-button end-gallery">
+              <a href="photo.html" class="link-hover">See all galleries</a>
             </div>
+          </div>
 
-            <div class="index-gallery-item">
-              <a href="#" class="gallery-link">
-                <img src="imgs/webSamples/Samples_web_70Q-5.jpg" alt="Gallery image">
-              </a>
-              <div class="index-gallery-description">
-              <a href="#">Fire Skies</a><a href="#">See more</a>
-              </div>
-            </div>
 
-            <!-- gallery-filler -->
-            <div class="index-gallery-filler"></div>
-            <div class="index-gallery-filler"></div>
-            <div class="index-gallery-filler"></div>
-            <div class="index-gallery-filler"></div>
-            <!-- gallery-filler -->
         </section>
-
-
-
-      </div>
 
 
       <footer>
@@ -220,7 +272,7 @@
 
           </div>
           <div class="social-media-container">
-            <h3 class="social-media-title">Social !</h3>
+            <h2 class="social-media-title">Social !</h2>
             <div class="social-media">
               <a href="https://www.instagram.com/calderavideo/" target="_blank">
                 <i class="fa fa-instagram" aria-hidden="true"></i>
@@ -234,7 +286,7 @@
             </div>
           </div>
           <div class="newsletter">
-            <h3>Newsletter</h3>
+            <h2>Newsletter</h2>
             <div></div>
           </div>
         </section>

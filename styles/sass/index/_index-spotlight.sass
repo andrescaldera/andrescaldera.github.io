@@ -13,10 +13,11 @@
     height: 145px
     margin: 0
     margin-right: 10px
-    opacity: .8
-    transition: opacity .2s ease-in-out
-    &:hover
-      opacity: 1
+
+    // opacity: .8
+    // transition: opacity .2s ease-in-out
+    // &:hover
+    //   opacity: 1
       .title a
         border-bottom: 1px solid $orangeLight
     a
@@ -25,26 +26,15 @@
       height: 100%
       img
         display: block
-        width: 100%
-        height: 100%
         border-radius: 4px
   .content
     display: flex
-    flex-flow: row wrap
-    // justify-content: space-around
+    flex-flow: column
+    justify-content: space-around
     width: 70%
     .title
-      font-weight: bold
-      font-size: 1rem
-      a
-        text-decoration: none
-        color: inherit
-        border-bottom: 1px solid transparent
-        transition: border .2s ease-in-out
-        padding: 0 0 5px
-        &:hover
-          font-weight: bold
-          border-bottom: 1px solid $orangeLight
+      font-size: 1.1rem
+
     .description
       margin: 0
       text-align: justify
@@ -52,6 +42,9 @@
       line-height: 1.61803398875
 
 @media (max-width: 1290px)
+  .spotlight-section
+    hr
+      margin: 20px 0
   .spotlight-item
     figure
       width: 200px
@@ -75,9 +68,7 @@
       width: 306px
     .content
       width: 100%
-      margin-top: 20px
-      > *
-        margin-top: 10px
+      margin-top: 0px
       .description
         align-self: flex-start
         margin-top: 10px
@@ -91,3 +82,6 @@
     figure
       width: 100%
       height: auto
+    .content
+      > *
+        margin-top: 15px
