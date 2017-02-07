@@ -5,15 +5,16 @@
     <title>Caldera Imagery</title>
     <link rel="icon" href="imgs/nav/calderaLogo.png">
 
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Dosis:300,400" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond:300,400" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Arsenal:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css"/>
 
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- swipebox -->
+    <link rel="stylesheet" href="styles\css\swipebox.css">
 
     <link rel="stylesheet" href="styles/css/styles.css">
   </head>
@@ -24,22 +25,29 @@
         <div class="header">
           <div class="logo">
             <a href="index.html">
-              <img width="100" src="imgs/nav/calderaLogo.png" alt="Caldera Logo" class=" logo-1">
-              <img width="100" src="imgs/nav/calderaImagery.png" alt="Caldera Imagery Logo" class=" logo-2">
+              <!-- <img src="imgs\nav\Caldera_visuals_logo.1.png" alt="Logo"> -->
+              <img width="100" src="imgs/nav/calderaLogo.png" alt="Caldera Logo" class="logo-1">
+              <div class="logo-2">
+                <span class="logo-2-1">Caldera</span>
+                <span class="logo-2-2">Visuals</span>
+              </div>
             </a>
+            <span class="breadcrum">
+              <a href="index.html">/ videography</a>
+            </span>
           </div>
 
           <nav class="nav">
             <button class="menu-ham">
-              <i class="material-icons">keyboard_arrow_down</i>
+              <i class="fa fa-bars" aria-hidden="true"></i>
             </button>
             <button class="menu-close">
-              <i class="material-icons">keyboard_arrow_up</i>
+              <i class="fa fa-bars" aria-hidden="true"></i>
             </button>
             <ul>
-              <li><a href="photo.html" class="nav-link">photo</a></li>
-              <li><a href="film.html" class="nav-link active">film</a></li>
-              <li><a href="blog.html" class="nav-link">blog</a></li>
+              <li><a href="video.html" class="nav-link">photography</a></li>
+              <!-- <li><a href="film.html" class="nav-link">film</a></li>
+              <li><a href="blog.html" class="nav-link">blog</a></li> -->
               <li><a href="contact.html" class="nav-link">contact</a></li>
             </ul>
           </nav>
@@ -49,25 +57,70 @@
 
       <div class="mobile-nav" id="mobile-nav">
         <ul>
-          <li><a class="mobile-nav-link" href="index.html">home</a></li>
-          <li><a class="mobile-nav-link" href="photo.html">photo</a></li>
-          <li><a class="mobile-nav-link active-mobile" href="#">film</a></li>
-          <li><a class="mobile-nav-link" href="blog.html">blog</a></li>
+          <li><a class="mobile-nav-link" href="video.html">video</a></li>
+          <!-- <li><a class="mobile-nav-link" href="film.html">film</a></li>
+          <li><a class="mobile-nav-link" href="blog.html">blog</a></li> -->
           <li><a class="mobile-nav-link" href="contact.html">contact</a></li>
         </ul>
       </div>
       <!-- mobile-nav -->
 
-      <div class="wrapper-body"></div>
+      <div class="wrapper-body">
+
+        <section class="tourism">
+
+          <h2>Tourism through sports</h2>
+
+          <hr class="top">
+          <hr class="bottom">
+
+          <div class="video-container">
+            <h3 class="title">barcelona, a coty foe wheels</h3>
+            <div class="video">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/tlIzUNlrewc" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <p class="description">
+              Barcelona is a city for wheels, whatever you ride you can do it there, at any time of the day, any season of the year. <br>
+              Bring your wheels and enjoy the city!!
+            </p>
+          </div>
+
+          <hr>
+
+          <div class="video-container">
+            <h3 class="title">skate kansas state university</h3>
+            <div class="video">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/KAFs9Sy7-PI" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <p class="description">
+              Manhattan is a small, beautiful, college-centered town in Kansas. <br>
+              The goal with this project was to indirectly showcase and highlight the campus to potencial new students, trying to preserve the academic spirit of campus while hilghlighting the extreme ("cool") vibe it can host.
+            </p>
+          </div>
+
+          <hr>
+
+          <div class="video-container">
+            <h3 class="title">wakeboard annecy</h3>
+            <div class="video">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/8vmb9MBTiEI" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <p class="description">
+              The cit of annecy is quite the hidden jewel for outdooe activities. I wanted to capture its beaty through a day of sports.
+            </p>
+          </div>
+        </section>
+
+
+      </div>
 
       <footer>
         <section class="footer">
           <div class="declaration">
-            All Rights <br>
-            Reserved.
+
           </div>
           <div class="social-media-container">
-            <h3 class="social-media-title">Social !</h3>
+            <h2 class="social-media-title">Social !</h2>
             <div class="social-media">
               <a href="https://www.instagram.com/calderavideo/" target="_blank">
                 <i class="fa fa-instagram" aria-hidden="true"></i>
@@ -81,13 +134,14 @@
             </div>
           </div>
           <div class="newsletter">
-            <h3>Newsletter</h3>
+            <h2>Newsletter</h2>
             <div></div>
           </div>
         </section>
 
         <div class="copyright">
-          &copy; 2016 Andres Caldera.
+          &copy; 2016 Andres Caldera. <br>
+          All Rights Reserved.
         </div>
       </footer>
 
