@@ -44,18 +44,16 @@ $(document).ready(function(){
     $bannerImg.css({
       // "transform" : "translate(0px, "+ wScroll/8 + "%)"
       // "transform" : "translate(0px, "+ wScroll/26 + "%)"
-      "top" : ""+wScroll/2+"px"
+      "top" : ""+wScroll/4+"px"
     });
-
   });
   // end parallax
 
   // gallery mobile
-  var $moreButton = $(".more-button");
-  var $indexGalleryItem = $(".index-gallery-item:nth-of-type(n+2)");
+  var $indexGalleryItem = $(".index-gallery-item-parent:nth-of-type(n+2)");
   var $indexGalleryMobile = $(".index-gallery-mobile");
-  var $open = $(".open");
-  var $close = $(".close");
+  var $open = $(".open-button");
+  var $close = $(".close-button");
 
   $close.hide();
 
@@ -67,6 +65,9 @@ $(document).ready(function(){
     });
     $open.hide();
     $close.show();
+    $close.css({
+      "display":"flex"
+    });
   });
 
   $close.on("click", function(){

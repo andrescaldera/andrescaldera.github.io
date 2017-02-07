@@ -6,6 +6,7 @@ h2
 h2,
 .spotlight-item .content .title,
   font-family: 'Julius Sans One', sans-serif
+  text-transform: lowercase
 
 // banner
 .banner-hr-top
@@ -20,9 +21,9 @@ hr
   margin: 18px 0
   align-self: center
   &.hr-gallery-1
-    margin: 20px -5% 5px
+    margin: 20px 0 5px
   &.hr-gallery-2
-    margin: 5px -5% 20px
+    margin: 5px 0 20px
   &.visible-toggle
     display: none
 
@@ -36,36 +37,81 @@ hr
   width: 100%
   height: 100%
 
-.link-hover
+.see-more
+  align-self: flex-end
+  line-height: 1.6
   text-decoration: none
   color: inherit
-  border-bottom: 1px solid transparent
+  padding: 0 5px
+  border: 1px solid transparent
   transition: border .2s ease-in-out
-  padding: 0 0 5px
+  align-items: center
+  span
+    line-height: 1.6
+    display: flex
+    vertical-align: middle
+    align-items: center
+    i
+      margin: 0 0 0px 5px
+      color: $redDark
+      align-self: center
   &:hover
-    border-bottom: 1px solid $orangeLight
+    border: 1px solid $redDark
 
-.more-button
-  display: none
-  // justify-content: flex-end
+.button-class-1
+  text-decoration: none
+  color: inherit
+  align-self: center
+  border: 1px solid rgba($footerBgGray, .4)
+  padding: 6px 20px 8px
+  transition: border .2s ease-in-out
+  &:hover
+    border: 1px solid $redDark
+  &:active
+    border: 1px solid rgba($footerBgGray, .4)
+  i.bt
+    margin: 0 5px 0
+    color: $redDark
+
+.open-button, .close-button
+  align-self: center
+  display: flex
   justify-content: center
   padding: 5px 0
-  margin: 10px 0 20px
-  border-top: 1px solid rgba($footerBgGray, .2)
-  width: 50%
-  cursor: pointer
-  .link-hover
-    border-bottom: 1px solid transparent
-    &:hover
-      border-bottom: 1px solid $orangeLight
+  margin: 10px 0 10px
+  display: none
+
+.more-button
+  display: flex
+  flex-direction: column
+  align-items: center
+  text-decoration: none
+  color: inherit
+  border: 1px solid rgba($footerBgGray, .4)
+  padding: 6px 8px 8px
+  transition: border .2s ease-in-out
+  &:hover
+    border: 1px solid $redDark
+  i
+    color: $redDark
+
+.back-button
+  a
+    text-decoration: none
+    color: inherit
+    i
+      margin-right: 10px
+
 
 @media (max-width: 1090px)
   hr.visible-toggle
     display: block
 
 @media (max-width: 746px)
-  .bhrb
+  .banner-hr-bottom-2
     margin: 10px 0 -4px
 @media (max-width: 543px)
-  .more-button
+  .see-more
+    margin: 30px 0 0
+  .open-button
     display: flex

@@ -61,7 +61,7 @@ html.swipebox-html.swipebox-touch {
   max-width: 100%;
   margin: 0;
   /*padding: 0;*/
-  padding: 0 0 30px;
+  padding: 10px 0 40px;
   width: auto;
   height: auto;
   vertical-align: middle;
@@ -273,7 +273,8 @@ html.swipebox-html.swipebox-touch {
 /* Skin
 --------------------------*/
 #swipebox-overlay {
-  background: #0d0d0d;
+  /*background: #0d0d0d;*/
+  background: #36363d;
 }
 
 #swipebox-bottom-bar,
@@ -288,7 +289,7 @@ html.swipebox-html.swipebox-touch {
   font-size: 15px;
   /*line-height: 43px;*/
   font-family: Helvetica, Arial, sans-serif;
-  height: 30px;
+  height: 40px;
   display: flex;
   justify-content: center;
   align-items: center;

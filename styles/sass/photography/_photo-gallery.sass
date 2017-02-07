@@ -1,0 +1,93 @@
+.index-gallery-container
+  display: flex
+  flex-direction: column
+  height: 100%
+  h2
+    margin: 12px 0 30px
+
+  .index-gallery
+    display: flex
+    flex-flow: column
+    height: 100%
+    div
+      display: flex
+      flex-wrap: wrap
+      justify-content: space-between
+      .index-gallery-item-parent
+        width: 32%
+        // height: 94%
+        position: relative
+        .index-gallery-item
+          width: 100%
+          height: 94%
+          .gallery-link
+            display: block
+            width: 100%
+            height: 100%
+        .index-gallery-description
+          position: absolute
+          bottom: 6%
+          left: 0
+          background-color: rgba($redDark, .7)
+          color: $whitef5
+          width: 100%
+          height: 30px
+          display: flex
+          align-items: center
+          padding: 0 0 0 10px
+          display: none
+          transition: display .2s ease-in-out
+        &:hover
+          .index-gallery-description
+            display: flex
+
+  .button-class-1
+    display: flex
+    align-self: center
+    justify-content: center
+    margin: 50px 0 80px
+.index-gallery-filler
+  flex: .2 1 320px
+  height: 0
+  border: 0
+  margin: 0 15px
+
+// mobile
+.index-gallery-container
+  .index-gallery-mobile
+    display: none
+    flex-flow: column
+    margin: 10px 0
+    height: 85vw
+    transition: height .2s ease-in-out
+    div.mobile
+      .index-gallery-item-parent
+        width: 100%
+        .index-gallery-item
+          margin: 20px 0
+          .index-gallery-description
+            margin: 10px 0 0
+        &:nth-of-type(n+2)
+          display: none
+          transition: display .2s ease-in-out
+
+
+@media (min-width: 992px)
+  .index-gallery-container
+    .index-gallery
+      .index-gallery-item
+        width: 32%
+
+@media (max-width: 746px)
+  .index-gallery-container
+    .index-gallery
+      .index-gallery-item
+        width: 47%
+
+@media (max-width: 543px)
+  .index-gallery-container
+    .index-gallery
+      display: none
+    .index-gallery-mobile
+      display: flex
+      flex-flow: column

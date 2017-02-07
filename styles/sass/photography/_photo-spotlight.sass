@@ -1,0 +1,91 @@
+.spotlight-section
+  display: flex
+  flex-direction: column
+  width: 50%
+  height: 100%
+  h2
+    text-align: center
+
+.spotlight-item
+  display: flex
+  // margin-bottom: 10px
+  figure
+    width: 216px
+    height: 145px
+    margin: 0
+    margin-right: 10px
+    a
+      display: block
+      width: 100%
+      height: 100%
+      img
+        display: block
+        width: 100%
+        height: 100%
+        // border-radius: 4px
+  .content
+    display: flex
+    flex-flow: column
+    justify-content: space-between
+    width: 70%
+    .title
+      font-size: 1.1rem
+    .description
+      margin: 0
+      text-align: justify
+      font-size: .9rem
+      line-height: 1.61803398875
+      // _recurrent
+      .see-more
+
+
+@media (max-width: 1290px)
+  .spotlight-section
+    hr
+      margin: 20px 0
+  .spotlight-item
+    figure
+      width: 200px
+      height: 139px
+
+@media (max-width: 1090px)
+  .spotlight-section
+    width: 618px
+    flex: 1
+    margin: 35px 0 50px
+
+@media (max-width: 886px)
+  .spotlight-section
+    // width: 100%
+@media (max-width: 767px)
+  .spotlight-section
+    width: 618px
+    h2
+  .spotlight-item
+    figure
+      width: 306px
+    .content
+      width: 100%
+      margin-top: 0px
+      .description
+        align-self: flex-start
+        margin-top: 10px
+@media (max-width: 746px)
+  .spotlight-section
+    width: 100%
+
+@media (max-width: 543px)
+  .spotlight-item
+    figure
+      width: 250px
+      height: 110px
+    .content
+      .description
+        align-self: flex-start
+        margin-top: 20px
+
+@media (max-width: 350px)
+  .spotlight-item
+    figure
+      width: 130px
+      height: 70px

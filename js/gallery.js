@@ -3,7 +3,7 @@ $(document).ready(function(){
   $("#galleryContainer").justifiedGallery({
     rowHeight : 300,
     lastRow : 'nojustify',
-    margins : 3,
+    margins : 15,
     rel: "gallery"
   });
   // end justifiedGallery
