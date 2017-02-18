@@ -1,7 +1,7 @@
 $(document).ready(function(){
   var $window = $(window);
   // instafeed
-  if ($window.innerWidth() <= 746) {
+  if ($window.innerWidth() <= 543) {
     var feed = new Instafeed({
       clientId: 'de20c8b1dc394285aa23db84b32cc803',
       accessToken: '3457657437.de20c8b.743705c02eb048c69db553ef7b562af1',
@@ -13,7 +13,7 @@ $(document).ready(function(){
       resolution: 'standard_resolution'
     });
     feed.run();
-  } else if ($window.innerWidth() > 746) {
+  } else if ($window.innerWidth() > 543) {
     var feed2 = new Instafeed({
       clientId: 'de20c8b1dc394285aa23db84b32cc803',
       accessToken: '3457657437.de20c8b.743705c02eb048c69db553ef7b562af1',

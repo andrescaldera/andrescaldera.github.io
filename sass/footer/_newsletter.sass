@@ -1,0 +1,80 @@
+.newsletter
+  display: flex
+  flex-direction: column
+  margin: 0 0 20px
+  align-items: center
+  h2
+    font-size: 1.2rem
+    line-height: 1.6
+    margin: 10px 0 5px
+    font-family: 'Arsenal', sans-serif
+    font-style: italic
+    text-transform: none
+
+  .form-container
+    width: 80%
+    div
+      width: 100%
+      form
+        width: 100%
+        div
+          display: flex
+          flex-flow: column
+          align-items: center
+          .mc-field-group
+            position: relative
+            display: flex
+            flex-direction: row
+            align-items: center
+            width: 100%
+            margin: 10px 0
+            border: 1px solid fade-out($footerBgGray, .8)
+            &:focus
+              outline: $redDark
+            &:first-of-type
+              margin: 10px 0 0px
+            label,
+            input
+              background-color: $whitef5
+              cursor: text
+              width: 100%
+              font-weight: normal
+              &:focus
+                outline: none
+            label
+              position: absolute
+              // width: 100%
+              top: 0
+              left: 0
+              font-size: .9rem
+              padding: 5px
+              transition: all .2s ease-in-out
+              &:focus
+                font-size: .7rem
+            input
+              // width: 100%
+              height: 30px
+              padding: 5px
+              font-size: 1rem
+              border: none
+              transition: height .2s ease-in-out
+              font-style: italic
+              &:focus
+                height: 55px
+                padding-top: 30px
+          .clear
+            // width: 100%
+            input[type=submit]
+              // width: 90px
+              font-family: 'Arsenal', sans-serif
+              font-size: 1rem
+
+@media (max-width: 991px)
+  .newsletter
+    .form-container
+      width: 50%
+
+@media (max-width: 480px)
+    .newsletter
+      .form-container
+        width: 70%

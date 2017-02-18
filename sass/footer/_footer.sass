@@ -1,0 +1,77 @@
+.footer
+  border-top: 2px solid $footerBgGray
+
+.footer-cta,
+.social-media
+  min-height: 185px
+  max-height: 100%
+
+.footer-cta
+  margin: 10px 0
+  display: flex
+  flex-direction: column
+  text-align: center
+  justify-content: center
+  a
+    color: inherit
+    text-decoration: none
+    &:hover
+      span
+        color: $redDark
+    span
+      font-style: italic
+      font-weight: bold
+      text-decoration: underline
+      transition: color .2s ease-in-out
+
+
+.social-media
+  display: flex
+  font-size: 2.5rem
+  margin: 0 0 15px
+  align-items: center
+  justify-content: center
+  div
+    width: 100%
+    display: flex
+    justify-content: space-around
+    a
+      text-decoration: none
+      color: inherit
+      transition: all .2s ease-in-out
+      &:focus
+        text-decoration: none
+        color: inherit
+      &:hover
+        color: $redDark
+
+@import "_newsletter"
+
+.copyright
+  background-color: $footerBgGray
+  color: $footerLetterColor
+  height: 80px
+  vertical-align: middle
+  padding: 18px 0
+  p
+    margin: 0
+
+@media (max-width: 991px)
+  .footer-cta,
+  .social-media
+    min-height: 120px
+    max-height: 100%
+
+@media (max-width: 767px)
+  .footer-cta,
+  .social-media
+    min-height: 80px
+    max-height: 100%
+  .social-media
+    div
+      width: 60%
+
+@media (max-width: 480px)
+  .social-media
+    div
+      width: 80%
