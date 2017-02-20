@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="css/styles.css">
   </head>
   <body>
+
     <nav class="navbar">
       <div class="container">
         <div class="navbar-header">
@@ -36,13 +37,13 @@
             </div>
           </a>
           <span class="breadcrums">
-            <a href="index.html">Photography</a>
+            <a href="video.html">video</a>
           </span>
         </div>
 
         <div class="collapse navbar-collapse" id="header-nav">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="video.html">video</a></li>
+            <li><a href="video.html">photo</a></li>
             <li><a href="contact.html">contact</a></li>
           </ul>
         </div>
@@ -50,53 +51,57 @@
       </div> <!-- end .container -->
     </nav> <!-- end nav -->
 
-    <div class="container container-galleries">
+    <section class="tourism ">
 
-      <section class="row gal galleries">
-        <h2 class="text-center">galleries</h2>
+      <h2>Tourism through sports</h2>
 
-        <div class="col-sm-4 col-xs-6 gallery-item">
-          <div>
-            <img src="imgs\galleries\details_SC\cover\Details_sacre_coeur_caldera_cover.jpg" alt="Gallery image" class="img-responsive">
-          </div>
-          <a href="html\photo_galleries\detailsSC-gallery.html" class="description">
-            <span><u>Details of the Sacre-Coeur</u></span>
-            <p>
-              The Basilica is mostly built from white stone and during sunsets I began to notice how its surface reflects the colored light it receives. When placed against the colored sky it makes a quite natural game of colors.
-            </p>
-          </a>
-        </div>
-        <div class="col-sm-4 col-xs-6 gallery-item">
-          <div>
-            <img src="imgs\galleries\fire_skies\cover\Fire_sky_caldera_cover.jpg" alt="Gallery image" class="img-responsive">
-          </div>
-          <a href="html\photo_galleries\fire-skies-gallery.html" class="description">
-            <span><u>Fire Skies</u></span>
-            <p>
-              Ever-present, variant, passionate, infinite; The sky shows no limits. Most of these are captures of western European skies, during the months of summer/fall.
-            </p>
-          </a>
-        </div>
-        <div class="col-sm-4 col-xs-6 gallery-item">
-          <div>
-            <img src="imgs\galleries\banner_photos\banner_cover\Details_sacre_coeur_caldera_cover.jpg" alt="Gallery image" class="img-responsive">
-          </div>
-          <a href="html\photo_galleries\banner-gallery.html" class="description">
-            <span><u>Banner Photos</u></span>
-            <p>
-              This is a small collection on photographs I’ve chosen for the Website’s banner. I really like them!.
-            </p>
-          </a>
-        </div>
-      </section>
+      <hr class="top">
+      <hr>
 
-      <div class="row bottom-nav">
-        <div class="col-xs-12">
-          <a href="index.html" class="btn btn-default btn-default-2 btn-default-3"><span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span>back to photography</a>
+      <div class="video-container">
+        <h3 class="title">barcelona, a coty foe wheels</h3>
+        <div class="video-parent">
+          <div class="video">
+            <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/tlIzUNlrewc" frameborder="0" allowfullscreen></iframe>
+          </div>
         </div>
+        <p class="description">
+          Barcelona is a city for wheels, whatever you ride you can do it there, at any time of the day, any season of the year. <br>
+          Bring your wheels and enjoy the city!!
+        </p>
       </div>
 
-    </div> <!-- end .container -->
+      <hr>
+
+      <div class="video-container">
+        <h3 class="title">skate kansas state university</h3>
+        <div class="video-parent">
+          <div class="video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/KAFs9Sy7-PI" frameborder="0" allowfullscreen></iframe>
+          </div>
+        </div>
+        <p class="description">
+          Manhattan is a small, beautiful, college-centered town in Kansas. <br>
+          The goal with this project was to indirectly showcase and highlight the campus to potencial new students, trying to preserve the academic spirit of campus while hilghlighting the extreme ("cool") vibe it can host.
+        </p>
+      </div>
+
+      <hr>
+
+      <div class="video-container">
+        <h3 class="title">wakeboard annecy</h3>
+        <div class="video-parent">
+          <div class="video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/8vmb9MBTiEI" frameborder="0" allowfullscreen></iframe>
+          </div>
+        </div>
+        <p class="description">
+          The cit of annecy is quite the hidden jewel for outdooe activities. I wanted to capture its beaty through a day of sports.
+        </p>
+      </div>
+    </section>
+
+
 
     <footer>
       <section class="footer">
@@ -120,7 +125,7 @@
               </div>
             </div>
             <div class="col-xs-12 col-md-4 newsletter ">
-              <h2>Never miss new Galleries</h2>
+              <h2>Never miss new Videos</h2>
               <div class="form-container">
                 <!-- Begin MailChimp Signup Form -->
                 <div id="mc_embed_signup">
@@ -161,7 +166,6 @@
       </section>
     </footer>
 
-
     <!--************* JavaScript *************-->
     <!-- jquery -->
     <script   src="https://code.jquery.com/jquery-3.1.1.min.js"   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="   crossorigin="anonymous">
@@ -173,10 +177,14 @@
     <!-- fontawesome -->
     <script src="https://use.fontawesome.com/76e0168547.js"></script>
 
+    <!-- instafeed -->
+    <script src="js/tools/instafeed.min.js"></script>
+
     <!-- bootstrap -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
     <!-- script -->
+    <script src="js/feed.js"></script>
     <script src="js/script.js"></script>
   </body>
 </html>

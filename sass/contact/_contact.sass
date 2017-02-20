@@ -1,0 +1,49 @@
+.contact-container
+  .container
+    .about-section
+      margin: 0 0 40px
+      display: flex
+      width: 100%
+      .description
+        display: flex
+        flex-direction: column
+        justify-content: space-between
+        text-align: justify
+
+@media (min-width: 1px)
+  .contact-container
+    .container
+      .col-img
+        display: flex
+        justify-content: center
+        figure
+          width: 70vw
+      .row
+        display: flex
+        flex-direction: column
+        width: 100%
+@media (min-width: 768px)
+  .contact-container
+    .container
+      .col-img
+        display: flex
+        justify-content: center
+        figure
+          width: 100%
+      .row
+        display: flex
+        flex-direction: row
+        width: 100%
+
+@media (max-width: 767px)
+  .contact-container
+    .container
+      .col-img
+        margin-bottom: 30px
+@media (max-width: 542px)
+  .contact-container
+    .container
+      .col-img
+        margin-bottom: 30px
+        figure
+          width: 100%

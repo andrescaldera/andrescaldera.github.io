@@ -14,6 +14,22 @@ h2
 h3
   font-size: 1.2rem
 
+h4
+  font-size: 1.5rem
+  font-style: italic
+  margin: 40px 0
+
+hr
+  // border-top: 1px solid rgba(#000, .1)
+
+.hover
+  text-decoration: none
+  color: inherit
+  opacity: .8
+  transition: opacity .2s ease-in-out
+  &:hover
+    opacity: 1
+
 .btn-default
   background-color: $whitef5
   border-radius: 0
@@ -27,6 +43,26 @@ h3
 .btn-default-2
   padding-top: 10px
   padding-bottom: 12px
+
+.btn-default-3
+  display: flex
+  align-items: center
+  justify-content: center
+  &:hover
+    span
+      color: $whitef5
+  span
+    font-size: .8rem
+    margin-right: 5px
+    color: $redDark
+
+.bottom-nav
+  margin: 40px 0
+  .col-xs-12
+    display: flex
+    align-items: center
+    justify-content: center
+
 
 .gal
   div
