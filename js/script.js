@@ -1,7 +1,14 @@
 $(document).ready(function(){
-  // carousel
+
   var $window = $(window);
 
+  $("ul.nav li div.dropdown").hover(function(){
+    $(this).find(".dropdown-menu").stop(true, true).delay(100).fadeIn(200);
+  },function(){
+    $(this).find(".dropdown-menu").stop(true, true).delay(100).fadeOut(200);
+  });
+
+  // carousel
   if ($window.innerWidth() > 767) {
     $("#slideshow > .banner-img:gt(0)").hide();
     setInterval(function(){
@@ -68,35 +75,70 @@ $(document).ready(function(){
   // validation newsletter
   var $inputEmail = $(".mc-field-group input[type=email]");
   var $inputText = $(".mc-field-group input[type=text]");
+  var $inputEmail2 = $(".input-field-group input[type=email]");
+  var $inputText2 = $(".input-field-group input[type=text]");
 
   $inputEmail.focusout(function(){
-    if ($inputEmail.val().length > 0) {
-      $inputEmail.prev().css({
+    if ($(this).val().length > 0) {
+      $(this).prev().css({
         "opacity" : "0",
       });
-      $inputEmail.focusin(function(){
-        $inputEmail.prev().css({
+      $(this).focusin(function(){
+        $(this).prev().css({
           "opacity" : "1",
         });
       });
     } else {
-      $inputEmail.prev().css({
+      $(this).prev().css({
         "opacity" : "1"
       });
     }
   });
   $inputText.focusout(function(){
-    if ($inputText.val().length > 0) {
-      $inputText.prev().css({
+    if ($(this).val().length > 0) {
+      $(this).prev().css({
         "opacity" : "0",
       });
-      $inputText.focusin(function(){
-        $inputText.prev().css({
+      $(this).focusin(function(){
+        $(this).prev().css({
           "opacity" : "1",
         });
       });
     } else {
-      $inputText.prev().css({
+      $(this).prev().css({
+        "opacity" : "1"
+      });
+    }
+  });
+  // contact form
+  $inputEmail2.focusout(function(){
+    if ($(this).val().length > 0) {
+      $(this).prev().css({
+        "opacity" : "0",
+      });
+      $(this).focusin(function(){
+        $(this).prev().css({
+          "opacity" : "1",
+        });
+      });
+    } else {
+      $(this).prev().css({
+        "opacity" : "1"
+      });
+    }
+  });
+  $inputText2.focusout(function(){
+    if ($(this).val().length > 0) {
+      $(this).prev().css({
+        "opacity" : "0",
+      });
+      $(this).focusin(function(){
+        $(this).prev().css({
+          "opacity" : "1",
+        });
+      });
+    } else {
+      $(this).prev().css({
         "opacity" : "1"
       });
     }

@@ -1,7 +1,8 @@
 $(document).ready(function(){
   // justifiedGallery
   $("#galleryContainer").justifiedGallery({
-    rowHeight : 300,
+    rowHeight : 200,
+    // maxRowHeight : 300,
     lastRow : 'nojustify',
     margins : 15,
     rel: "gallery"

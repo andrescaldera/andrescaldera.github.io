@@ -13,6 +13,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <link rel="stylesheet" type="text/css" href="//assets.emailmeform.com/styles/dynamic.php?t=post&enable_responsive_ui=1&RU1GLTAyLTI5" />
+    <link rel="stylesheet" type="text/css" href="http://app.emailmeform.com/builder/theme_css/07ya8b1cmvfa42d1zaj6" />
+
     <!-- bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
@@ -37,14 +40,24 @@
             </div>
           </a>
           <span class="breadcrums">
-            <a href="index.html">contact</a>
+            <a href="contact.html">contact</a>
           </span>
         </div>
 
         <div class="collapse navbar-collapse" id="header-nav">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="video.html">photo</a></li>
-            <li><a href="contact.html">video</a></li>
+            <li><a href="index.html">photo</a>
+              <div class="dropdown">
+                <button class="dropdown-toggle" type="button" id="dropdownMenuPhoto" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                  <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuPhoto">
+                  <li><a href="galleries.html">galleries</a></li>
+                </ul>
+              </div>
+            </li>
+
+            <li><a href="video.html">video</a></li>
           </ul>
         </div>
 
@@ -52,11 +65,11 @@
     </nav> <!-- end nav -->
 
 
-    <section class="contact-container">
+    <section class="about-container">
       <div class="container">
         <div class="row title-section">
           <div class="col-xs-12 text-center">
-            <h4>About me</h4>
+            <h2>About me</h2>
           </div>
         </div>
         <div class="row about-section">
@@ -75,6 +88,109 @@
             <p>
               For enquiries, project proposals and anything I can be of use, please use the form below.
             </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="container">
+      <hr>
+    </div>
+
+    <section class="contact-container">
+
+      <div class="container">
+        <div class="row contact-section">
+          <div class="col-xs-12 text-center">
+            <h2>contact</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+            <div id="emf-container-outer">
+              <div id="emf-container" >
+                <div class="emf-error-message" style='display:none'></div>
+                <form id="emf-form" target="_self" class="topLabel" enctype="multipart/form-data" method="post" action="http://www.emailmeform.com/builder/form/07ya8b1cmvfa42d1zaj6">
+                  <div>
+
+                    <div id="emf-li-0" class="emf-li-field emf-field-new_name data_container">
+                      <!-- <label class="emf-label-desc" for="element_0">Name</label> -->
+                      <div class="emf-div-field">
+                        <div class="input-field-group">
+                          <label for="element_2" class="">First Name:</label>
+                          <input class="validate[optional]"  value=""id="element_2" name="element_2" type="text" />
+                        </div>
+                      </div>
+                      <div class="emf-div-field">
+                        <div class="input-field-group">
+                          <label for="element_3" class="">Last Name:</label>
+                          <input class="validate[optional]"  value=""id="element_3" name="element_3" type="text" />
+                        </div>
+                      </div>
+                      <div class="emf-clear"></div>
+                    </div>
+
+                    <div id="emf-li-7" class="emf-li-field emf-field-email data_container">
+                      <div class="emf-div-field">
+                        <div class="input-field-group">
+                          <label class="emf-label-desc" for="element_7">Email:</label>
+                          <input id="element_7" name="element_7"class="validate[optional,custom[email]]"value="" size="30" type="email" />
+                        </div>
+                      </div>
+                      <div class="emf-clear"></div>
+                    </div>
+
+                    <div id="emf-li-8" class="emf-li-field emf-field-text data_container">
+                      <div class="emf-div-field">
+                        <div class="input-field-group">
+                          <label class="emf-label-desc" for="element_8">Subject:</label>
+                          <input id="element_8" name="element_8" value="" size="30" type="text"class="validate[optional]"/>
+                        </div>
+                      </div>
+                      <div class="emf-clear"></div>
+                    </div>
+
+                    <div id="emf-li-9" class="emf-li-field emf-field-textarea data_container">
+                      <div class="emf-div-field">
+                        <div class="input-field-group">
+                          <label class="emf-label-desc message-label" for="element_9">Message:</label>
+                          <textarea id="element_9" name="element_9" rows="10"class="validate[optional] message-input"></textarea>
+                        </div>
+                      </div>
+                      <div class="emf-clear"></div>
+                    </div>
+
+                    <div id="emf-li-post-button" class="btn btn-default btn-default-2">
+                      <input type="submit" alt="Submit" onmouseover="return true;" formtarget="_blank" value="Sumit message"/>
+                    </div>
+
+                  </div>
+
+                  <input name="element_counts" value="10" type="hidden" />
+
+                  <input name="embed" value="forms" type="hidden" />
+
+                  <!-- <div style="margin-top:18px;text-align:center">
+                    <div id='emf_advertisement'>
+                      <font face="Verdana" size="2" color="#000000">Powered by</font>
+                      <span style="position: relative; padding-left: 3px; bottom: -5px;">
+                        <img src="//assets.emailmeform.com/images/footer-logo.png?RU1GLTAyLTI5" />
+                      </span>
+                      <font face="Verdana" size="2" color="#000000">EMF </font>
+                      <a style="text-decoration:none;" href="http://www.emailmeform.com/" target="_blank">
+                        <font face="Verdana" size="2" color="#000000">Online Payment Form</font>
+                      </a>
+                    </div>
+                    <div>
+                      <font face="Verdana" size="2" color="#000000">
+                        <a style="line-height:20px;font-size:70%;text-decoration:none;" href="https://www.emailmeform.com/report-abuse.html?http://www.emailmeform.com/builder/form/07ya8b1cmvfa42d1zaj6" target="_blank">Report Abuse</a>
+                      </font>
+                    </div>
+                  </div> -->
+
+                </form>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -149,14 +265,43 @@
     </footer>
 
   <!--************* JavaScript *************-->
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js">
+  </script>
+
+  <script type="text/javascript">
+  if (typeof jQuery == 'undefined'){
+      document.write(unescape("%3Cscript src='http://app.emailmeform.com/builder/js/jquery-1.8.3.min.js' type='text/javascript'%3E%3C/script%3E"));
+  }
+  </script>
+
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.7.2/jquery-ui.min.js">
+  </script>
+
+  <script type="text/javascript">
+  if (typeof $.ui == 'undefined'){
+      document.write(unescape("%3Cscript src='http://app.emailmeform.com/builder/js/jquery-ui-1.7.2.custom.min.js' type='text/javascript'%3E%3C/script%3E"));
+  }
+  </script>
+
+  <script type="text/javascript" src="//assets.emailmeform.com/js/dynamic.php?t=post&t2=0&use_CDN=true&language=en&language_id=0&referer_domain=http%3A%2F%2Fwww.emailmeform.com%2F&RU1GLTAyLTI5">
+  </script>
+
+  <script type="text/javascript" src="js/contact/contact.js">
+
+  </script>
   <!-- jquery -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <script   src="https://code.jquery.com/jquery-3.1.1.min.js"   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="   crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous">
+  </script>
 
   <!-- fontawesome -->
   <script src="https://use.fontawesome.com/76e0168547.js"></script>
 
   <!-- bootstrap -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
 
   <!-- script -->
   <script src="js/script.js"></script>

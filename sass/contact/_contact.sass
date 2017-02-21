@@ -1,5 +1,9 @@
-.contact-container
+.about-container
   .container
+    .title-section
+      div
+        h2
+          margin-top: 30px
     .about-section
       margin: 0 0 40px
       display: flex
@@ -9,9 +13,97 @@
         flex-direction: column
         justify-content: space-between
         text-align: justify
+        p
+          margin-right: 0vw
+
+.contact-section
+  div
+    h2
+      margin-top: 30px
+      margin-bottom: 20px
+
+
+#emf-container
+  background-color: $whitef5
+  border: 0
+  margin: 0 0 50px
+  width: 100%
+  #emf-form
+    display: flex
+    flex-direction: column
+    padding: 0
+    div
+      .emf-li-field
+        .emf-div-field
+          display: flex
+          .input-field-group
+            position: relative
+            display: flex
+            flex-direction: column
+            flex: 1
+            width: 100%
+            margin: 10px 0
+            border: 1px solid fade-out($footerBgGray, .8)
+            label,
+            input,
+            textarea
+              background-color: $whitef5
+              cursor: text
+              width: 100%
+              font-weight: normal
+              font-family: 'Arsenal', sans-serif
+              padding: 5px 10px
+              &:focus
+                outline: none
+            label
+              position: absolute
+              // width: 100%
+              top: 0
+              left: 0
+              font-size: .9rem
+
+              transition: all .2s ease-in-out
+              &:focus
+                font-size: .7rem
+            input
+              width: 100%
+              height: 35px
+
+              font-size: 1rem
+              border: none
+              transition: height .2s ease-in-out
+              font-style: italic
+              &:focus
+                height: 55px
+                padding-top: 30px
+            .message-label
+              position: relative
+            .message-input
+              cursor: auto
+              width: 100%
+              font-size: 1rem
+              border: none
+              font-style: italic
+              resize: none
+
+    #emf-li-post-button
+      &:hover
+        input
+          background-color: rgba(181, 100, 100, 0)
+          color: $whitef5
+      input
+        background-color: $whitef5
+        border: 0
+        font-family: 'Arsenal', sans-serif
+        font-size: 1rem
+        color: inherit
+
+
+
+
 
 @media (min-width: 1px)
-  .contact-container
+  .about-container
     .container
       .col-img
         display: flex
@@ -22,8 +114,16 @@
         display: flex
         flex-direction: column
         width: 100%
+@media (min-width: 992px)
+  .about-container
+    .container
+      .about-section
+        .description
+          p
+            margin-right: 5vw
+
 @media (min-width: 768px)
-  .contact-container
+  .about-container
     .container
       .col-img
         display: flex
@@ -36,12 +136,12 @@
         width: 100%
 
 @media (max-width: 767px)
-  .contact-container
+  .about-container
     .container
       .col-img
         margin-bottom: 30px
 @media (max-width: 542px)
-  .contact-container
+  .about-container
     .container
       .col-img
         margin-bottom: 30px
