@@ -14,7 +14,6 @@ $(document).ready(function(){
   if ($window.innerWidth() > 767) {
     $(window).scroll(function(){
       var wScroll = $(this).scrollTop();
-      console.log(wScroll);
       $bannerImg.css({
         // "transform" : "translate(0px, "+ wScroll/8 + "%)"
         // "transform" : "translate(0px, "+ wScroll/26 + "%)"
