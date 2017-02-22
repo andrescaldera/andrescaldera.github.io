@@ -1,8 +1,8 @@
 $(document).ready(function(){
 
   var $window = $(window);
-
-  $("ul.nav li div.dropdown").hover(function(){
+  // div.dropdown
+  $("ul.nav li:first-of-type ").hover(function(){
     $(this).find(".dropdown-menu").stop(true, true).delay(100).fadeIn(200);
   },function(){
     $(this).find(".dropdown-menu").stop(true, true).delay(100).fadeOut(200);
@@ -41,36 +41,6 @@ $(document).ready(function(){
   }
   // end parallax
 
-  // gallery mobile
-  // var $indexGalleryItem = $(".index-gallery-item-parent:nth-of-type(n+2)");
-  // var $indexGalleryMobile = $(".index-gallery-mobile");
-  // var $open = $(".open-button");
-  // var $close = $(".close-button");
-  //
-  // $close.hide();
-  //
-  // $open.on("click", function(){
-  //   $indexGalleryMobile.css({"height":"100%"});
-  //   $indexGalleryItem.css({
-  //     "display":"flex",
-  //     "flex-flow":"column"
-  //   });
-  //   $open.hide();
-  //   $close.show();
-  //   $close.css({
-  //     "display":"flex"
-  //   });
-  // });
-  //
-  // $close.on("click", function(){
-  //   $indexGalleryMobile.css({"height":"85vw"});
-  //   $indexGalleryItem.css({
-  //     "display":"none",
-  //   });
-  //   $close.hide();
-  //   $open.show();
-  // });
-  // end gallery mobile
 
   // validation newsletter
   var $inputEmail = $(".mc-field-group input[type=email]");
