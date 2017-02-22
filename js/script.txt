@@ -180,3 +180,21 @@ function changeImage(n){
 //   $open.show();
 // });
 // end gallery mobile
+
+// carousel
+// if ($window.innerWidth() > 767) {
+//   $("#slideshow > .banner-img:gt(0)").hide();
+//   setInterval(function(){
+//     $("#slideshow > .banner-img:first")
+//     .fadeOut(1000)
+//     .next()
+//     .fadeIn(1000)
+//     .end()
+//     .appendTo("#slideshow");
+//   }, 8000);
+// }
+// else if ($window.innerWidth() <= 767) {
+//   $("#slideshow > .banner-img:gt(7)").hide();
+//   $("#slideshow > .banner-img:lt(7)").hide();
+// }
+// end carousel

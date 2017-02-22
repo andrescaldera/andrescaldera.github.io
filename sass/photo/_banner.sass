@@ -1,34 +1,40 @@
-.banner
-  position: relative
-  // width: 100%
-  height: 42vw
-  // left: 5%
-  // top: 0px
+.carousel-inner
   overflow: hidden
-  margin: 0px 0 0
-  .banner-img
-    width: 100%
-    position: absolute
-    left: 0px
-    top: 0px
-    transform: translate(0px, 0px)
+  height: 42vw
+  .item
+    margin-top: -3.5%
+    // transform: translate(0px, 0px)
     transition: all 0s linear
-    // transition-property: transform
-    transform: translate3d(0,0,0)
-    img
-      width: 100%
-      height: auto
-      margin-top: -6vw
-      display: block
 
-@media (min-width: 1200px)
-  .banner
-    height: 487px
+// .banner
+//   position: relative
+//   // width: 100%
+//   height: 42vw
+//   // left: 5%
+//   // top: 0px
+//   overflow: hidden
+//   margin: 0px 0 0
+//   .banner-img
+//     width: 100%
+//     position: absolute
+//     left: 0px
+//     top: 0px
+//     transform: translate(0px, 0px)
+//     transition: all 0s linear
+//     // img
+//     //   width: 100%
+//     //   height: auto
+//     //   margin-top: -6vw
+//     //   display: block
+
+// @media (min-width: 1200px)
+
+@media (max-width: 1002px)
+  .carousel-inner
+    .item
+      margin-top: -5%
 @media (max-width: 767px)
-  .banner
-    height: 50vw
-    margin-left: -28px
-    width: calc(100% + 56px)
-    .banner-img
-      img
-        margin-top: 0vw
+  .carousel-inner
+    height: 100%
+    .item
+      margin-top: 0%

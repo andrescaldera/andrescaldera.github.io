@@ -8,34 +8,17 @@ $(document).ready(function(){
     $(this).find(".dropdown-menu").stop(true, true).delay(100).fadeOut(200);
   });
 
-  // carousel
-  if ($window.innerWidth() > 767) {
-    $("#slideshow > .banner-img:gt(0)").hide();
-    setInterval(function(){
-      $("#slideshow > .banner-img:first")
-      .fadeOut(1000)
-      .next()
-      .fadeIn(1000)
-      .end()
-      .appendTo("#slideshow");
-    }, 8000);
-  }
-  else if ($window.innerWidth() <= 767) {
-    $("#slideshow > .banner-img:gt(7)").hide();
-    $("#slideshow > .banner-img:lt(7)").hide();
-  }
-  // end carousel
-
   // parallax
-  var $bannerImg = $(".banner-img");
+  var $bannerImg = $(".item");
 
   if ($window.innerWidth() > 767) {
     $(window).scroll(function(){
       var wScroll = $(this).scrollTop();
+      console.log(wScroll);
       $bannerImg.css({
         // "transform" : "translate(0px, "+ wScroll/8 + "%)"
         // "transform" : "translate(0px, "+ wScroll/26 + "%)"
-        "top" : ""+wScroll/4+"px"
+        "top" : ""+wScroll/2+"px"
       });
     });
   }
