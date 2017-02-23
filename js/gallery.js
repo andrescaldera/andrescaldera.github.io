@@ -1,6 +1,4 @@
 $(document).ready(function(){
-  // justifiedGallery
-
 
   $("#galleryContainerBanner").justifiedGallery({
     rowHeight : 200,
@@ -102,11 +100,6 @@ $(document).ready(function(){
       useSVG: true
     });
   });
-
-
-
-
-  // // end justifiedGallery
 
 
   // swipebox
