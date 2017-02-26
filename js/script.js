@@ -1,14 +1,27 @@
 $(document).ready(function(){
 
   var $window = $(window);
-  // div.dropdown
   $("ul.nav li:first-of-type ").hover(function(){
     $(this).find(".dropdown-menu").stop(true, true).delay(100).fadeIn(200);
   },function(){
     $(this).find(".dropdown-menu").stop(true, true).delay(100).fadeOut(200);
   });
 
+  // $(".carousel").carousel();
   // parallax
+  // // carousel
+  //
+  //   $("#slideshow > .banner-img:gt(0)").hide();
+  //   setInterval(function(){
+  //     $("#slideshow > .banner-img:first")
+  //     .fadeOut(1000)
+  //     .next()
+  //     .fadeIn(1000)
+  //     .end()
+  //     .appendTo("#slideshow");
+  //   }, 8000);
+
+  // end carousel
   var $bannerImg = $(".item");
 
   if ($window.innerWidth() > 767) {
