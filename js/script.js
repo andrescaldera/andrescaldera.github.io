@@ -1,13 +1,22 @@
 $(document).ready(function(){
 
   var $window = $(window);
+  var $carousel = $(".carousel");
+
   $("ul.nav li:first-of-type ").hover(function(){
     $(this).find(".dropdown-menu").stop(true, true).delay(100).fadeIn(200);
   },function(){
     $(this).find(".dropdown-menu").stop(true, true).delay(100).fadeOut(200);
   });
 
-  // $(".carousel").carousel();
+  if ($window.innerWidth() > 767) {
+    $carousel.carousel({
+      interval : 9000,
+
+    });
+  } else if ($window.innerWidth() <= 767) {
+    $carousel.carousel("pause");
+  }
   // parallax
   // // carousel
   //
