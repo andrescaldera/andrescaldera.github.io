@@ -1,3 +1,11 @@
+$divider1.css({
+  "background-position" : "center calc(30% + "+ wScroll/30 + "%)"
+  // "transform" : "translate(0px, "+ (wScroll)/ 10 + "%)"
+  // "top" : ""+wScroll/2+"px"
+});
+
+
+
 // if ($(that).prev(".gallery-item").length > 0) {
 //   // $(".right-nav i").css("color", "#FF8A7B");
 //   // $(".right-nav").on();
