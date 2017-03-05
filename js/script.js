@@ -11,7 +11,7 @@ $(document).ready(function(){
 
   if ($window.innerWidth() > 767) {
     $carousel.carousel({
-      interval : 9000,
+      interval : 8000,
 
     });
   } else if ($window.innerWidth() <= 767) {
