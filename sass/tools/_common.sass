@@ -72,6 +72,15 @@ hr
     border-color    : $whitef5
     color           : $whitef5
     background-color: $redDark
+  &:active
+    box-shadow: none
+    background: transparent
+  &:focus
+    outline: none
+    background-color: $redDark
+  &:active:focus
+    outline: none
+    background: $redDark
 
 .btn-default-2
   padding-top   : 10px
