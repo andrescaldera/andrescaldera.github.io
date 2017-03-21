@@ -24,7 +24,7 @@ $(document).ready(function(){
     rowHeight : 300,
     maxRowHeight : 300,
     lastRow : 'nojustify',
-    margins : 15,
+    margins : 20,
     rel: "gallery"
   }).on("jg.complete", function(){
     $(".gallery a").click(function(event){

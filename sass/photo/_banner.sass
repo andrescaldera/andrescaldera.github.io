@@ -5,37 +5,17 @@
   justify-content: center
   .carousel-inner
     overflow: hidden
-    // height: 44vw
-    height: 35vw
-    width: 80%
+    height: 46vw
+    width: 95%
+    // border: 1px solid black
     .item
-      margin-top: -6.5%
+      margin-top: -3%
       position: absolute
       left: 0
       top: 0
       width: 100%
       height: 100%
       transition: opacity .7s ease-in-out
-      // &:nth-child(1)
-      //   // margin-top: -2.9%
-      // &:nth-child(2)
-      //
-      // &:nth-child(3)
-      //   // margin-top: -6.9%
-      // &:nth-child(4)
-      //
-      // &:nth-child(5)
-      //   margin-top: -5.9%
-      // &:nth-child(6)
-      //
-      // &:nth-child(7)
-      //
-      // &:nth-child(8)
-      //
-      // &:nth-child(9)
-      //
-      // &:nth-child(10)
-      //   margin-top: -9.9%
 
     .item,.active.left,.active.right
       opacity: 0
@@ -50,32 +30,54 @@
   justify-content: center
   align-items: center
   font-size: 2rem
-  width: 10%
+  width: 2.5%
   text-shadow: none
   color: rgba(#000, .3)
   &:hover
     i
       color: $redDark
   &:focus
-    color: rgba(#000, .2)
+    color: rgba(#000, .3)
 
 .carousel-control.right,
 .carousel-control.left
   background-image: none
   background-color: rgba(#fff, 0)
 
-@media (min-width: 1316px)
+@media (min-width: 1200px)
   .carousel
     .carousel-inner
-      height: 453px
-@media (max-width: 1315px)
+      height: 575px
+@media (max-width: 1070px)
   .carousel
     .carousel-inner
-      height: 34.5vw
-@media (max-width: 1002px)
-  .carousel-inner
-    .item
-      margin-top: -5%
+      .item
+        margin-top: -3.5%
+@media (max-width: 991px)
+  .container-banner
+    .carousel
+      .carousel-inner
+        height: 45vw
+@media (max-width: 920px)
+  .carousel
+    .carousel-inner
+      .item
+        margin-top: -3.8%
+@media (max-width: 845px)
+  .carousel
+    .carousel-inner
+      .item
+        margin-top: -3.9%
+@media (max-width: 823px)
+  .carousel
+    .carousel-inner
+      .item
+        margin-top: -4.0%
+@media (max-width: 803px)
+  .carousel
+    .carousel-inner
+      .item
+        margin-top: -4.2%
 @media (max-width: 767px)
   .container-banner
     padding: 0
@@ -83,8 +85,15 @@
     width: 100%
     .carousel
       .carousel-inner
-        height: 55vw
+        height: 56vw
+        width: 100%
         .item
           margin-top: 0%
-          &:nth-child(1)
-            margin-top: 0
+  .carousel-control
+    width: 5%
+    color: rgba(#fff, 1)
+    &:hover
+      i
+        color: $redDark
+    &:focus
+      color: rgba(#fff, .5)

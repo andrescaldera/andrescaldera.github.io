@@ -27,7 +27,7 @@ $(document).ready(function(){
       $bannerImg.css({
         // "transform" : "translate3d(0px, "+ wScroll/8 + "%, 0)"
         // "transform" : "translate(0px, "+ wScroll/26 + "%)"
-        "top" : ""+wScroll/2+"px"
+        "top" : ""+wScroll/4+"px"
       });
     });
   }
