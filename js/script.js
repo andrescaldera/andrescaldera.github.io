@@ -2,12 +2,16 @@ $(document).ready(function(){
 
   var $window = $(window);
   var $carousel = $(".carousel");
+  var $dropdown = $(".dropdown");
+  var $anchor = $(".navbar .container .navbar-collapse .nav li:first-of-type a");
 
-  $("ul.nav li:first-of-type ").hover(function(){
-    $(this).find(".dropdown-menu").stop(true, true).delay(100).fadeIn(200);
-  },function(){
-    $(this).find(".dropdown-menu").stop(true, true).delay(100).fadeOut(200);
-  });
+  if ($window.innerWidth() > 767){
+    $("ul.nav li:first-of-type ").hover(function(){
+      $(this).find(".dropdown-menu").stop(true, true).delay(100).fadeIn(200);
+    },function(){
+      $(this).find(".dropdown-menu").stop(true, true).delay(100).fadeOut(200);
+    });
+  }
 
   // carousel
   if ($window.innerWidth() > 767) {
