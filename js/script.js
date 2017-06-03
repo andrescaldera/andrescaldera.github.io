@@ -110,6 +110,27 @@ $(document).ready(function(){
     }
   });
   // end validation newsletter
+  //input button clear
+  var $form = $('#emf-form');
+  var $newletter = $('#mc-embedded-subscribe-form');
+  $('#emf-li-post-button input').on('click', function () {
 
+    $form.find('input:text').val('').focus();
+    $form.find('input[type=email]').val('').focus();
+    $form.find('textarea').val('').focus();
+  });
+  $('#mc-embedded-subscribe').on('click', function () {
+    $newletter.find('input:text').val('').focus();
+    $newletter.find('input[type=email]').val('').focus();
+  });
+
+
+  // travel page
+  var $tnavbar = $(".tnavbar .container");
+  if ($window.innerWidth() <= 767) {
+    $tnavbar.removeClass("navbar-travel-container");
+  } else if ($window.innerWidth() > 767) {
+    $tnavbar.addClass("navbar-travel-container");
+  }
 
 });

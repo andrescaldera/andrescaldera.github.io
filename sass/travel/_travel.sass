@@ -2,12 +2,12 @@
   display: flex
   // justify-content: space-between
 
-.page-title
+.tpage-title
   margin-left: auto
   margin-right: auto
 
 
-.title-section
+.ttitle-section
   margin-top: 5rem
   margin-bottom: 6rem
   .title
@@ -15,14 +15,16 @@
       display: flex
       justify-content: center
       flex-direction: column
+      align-items: center
       h2
         margin-bottom: 0
         border-bottom: 2px solid $footerBgGray
+        width: 26rem
 
 .font-italic
   font-style: italic
 
-.travel-section
+.tinfo-section
   margin: 5rem 0
   .row-description
     .description
@@ -37,26 +39,39 @@
         width: 70%
         img
 
-.travel-photos-section
+.tphotos-section
   margin-bottom: 8rem
   figure
     margin-bottom: 30px
 
-.travle-contact-section
+.tcontact-section
   margin-bottom: 8rem
 
-.contact-text
-  margin-top: 3rem
-  div
-    font-size: 1.2rem
-    text-align: center
-    p
-      font-style: italic
-    span
+  .contact-text
+    margin-top: 3rem
+    div
+      font-size: 1.2rem
+      text-align: center
+      p
 
-      a
-        color: $redDark
-        border-bottom: 2px solid $redDark
+      span
 
-.contact-container
+        a
+          color: $redDark
+          // border-bottom: 2px solid $redDark
+          font-style: italic
+
+.tform-section
   margin-bottom: 6rem
+
+
+@media (max-width: 991px)
+  .tinfo-section
+    .row-description
+      .description
+        align-items: center
+      .figure
+        margin-top: 3rem
+        figure
+          margin-left: auto
+          margin-right: auto
