@@ -167,7 +167,7 @@
             // transition: color .2s ease-in-out
             &:hover
               border-bottom: 2px solid $redDark
-              background: $whitef5
+              background: none
             &:visited
               // color: $footerBgGray
               text-decoration: none
@@ -176,10 +176,12 @@
               // color: $footerBgGray
               text-decoration: none
               background-color: inherit
+            &:focus
+              background-color: none !important
 
 @media (max-width: 767px)
   .navbar
-    padding: .5rem 0
+    // padding: .5rem 0
     padding-right: 0
     padding-left: 0
     .container
@@ -214,6 +216,8 @@
               align-items: center
               background-color: $redDark
               color: $whitef5
+              &:hover
+                background-color: $redDark
             &:nth-child(2)
               display: flex
               flex-direction: column
@@ -221,6 +225,7 @@
               padding-right: 0
               border-bottom: 1px solid $redDark
               &:hover
+                background-color: none
                 .dropdown
                   button
                     span
@@ -248,6 +253,7 @@
                     display: flex
                     justify-content: center
                     border-bottom: 0
+                    background-color: transparent
                     &:hover
                       background-color: transparent
                     a
@@ -256,7 +262,7 @@
                         background-color: transparent
             &:nth-child(3)
             &:hover
-              background-color: $redDark
+              background-color: transparent
             a
               margin: 0
               padding: 1.2em 0
@@ -264,7 +270,7 @@
               color: $whitef5
               &:hover
                 border-bottom: 0px solid $redDark
-                background: $whitef5
+                background: transparent
               &:visited
                 color: $whitef5
                 text-decoration: none
