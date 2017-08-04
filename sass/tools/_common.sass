@@ -19,6 +19,9 @@ h2
 .h2-blog
   margin: 0
 
+.h2-nav-title
+  margin: 0
+
 .h2
   font-size        : 1.5rem
   font-weight      : inherit
@@ -68,13 +71,18 @@ hr
 
 .btn-default
   background-color: $whitef5
-  border-radius   : 0
+  border-radius   : 3px
   padding-top     : 3px
   padding-bottom  : 5px
+  border: none
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2)
+  color: $whitef5
+  background-color: $redDark
   &:hover
-    border-color    : $whitef5
+    // border-color    : $whitef5
     color           : $whitef5
     background-color: $redDark
+    box-shadow: 0 6px 10px 0 rgba(0,0,0,0.14), 0 1px 18px 0 rgba(0,0,0,0.12), 0 3px 5px -1px rgba(0,0,0,0.3)
   &:active
     box-shadow: none
     background: transparent
@@ -99,7 +107,7 @@ hr
   span
     font-size   : .8rem
     margin-right: 5px
-    color       : $redDark
+    color       : $whitef5
 
 .btn-default-4
   border: 0

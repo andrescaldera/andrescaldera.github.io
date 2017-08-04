@@ -6,7 +6,7 @@ $(document).ready(function(){
   var $anchor = $(".navbar .container .navbar-collapse .nav li:first-of-type a");
 
   if ($window.innerWidth() > 767){
-    $("ul.nav li:first-of-type ").hover(function(){
+    $("ul.nav li .dropdown").hover(function(){
       $(this).find(".dropdown-menu").stop(true, true).delay(100).fadeIn(200);
     },function(){
       $(this).find(".dropdown-menu").stop(true, true).delay(100).fadeOut(200);
