@@ -5,31 +5,6 @@ $(document).ready(function() {
     // var $dropdown = $(".dropdown");
     var $anchor = $(".navbar .container .navbar-collapse .nav li:first-of-type a");
 
-    // carousel
-    if ($window.innerWidth() > 767) {
-        $carousel.carousel({
-            interval: 6000,
-
-        });
-    } else if ($window.innerWidth() <= 767) {
-        $carousel.carousel("pause");
-    }
-    // parallax
-    var $bannerImg = $(".item");
-
-    if ($window.innerWidth() > 767) {
-        $(window).scroll(function() {
-            var wScroll = $(this).scrollTop();
-            $bannerImg.css({
-                // "transform" : "translate3d(0px, "+ wScroll/8 + "%, 0)"
-                // "transform" : "translate(0px, "+ wScroll/26 + "%)"
-                "top": "" + wScroll / 4 + "px"
-            });
-        });
-    }
-    // end parallax
-
-
     // validation newsletter
     var $inputEmail = $(".mc-field-group input[type=email]");
     var $inputText = $(".mc-field-group input[type=text]");
@@ -118,11 +93,11 @@ $(document).ready(function() {
 
 
     // travel page
-    var $tnavbar = $(".tnavbar .container");
-    if ($window.innerWidth() <= 767) {
-        $tnavbar.removeClass("navbar-travel-container");
-    } else if ($window.innerWidth() > 767) {
-        $tnavbar.addClass("navbar-travel-container");
-    }
+    // var $tnavbar = $(".tnavbar .container");
+    // if ($window.innerWidth() <= 767) {
+    //     $tnavbar.removeClass("navbar-travel-container");
+    // } else if ($window.innerWidth() > 767) {
+    //     $tnavbar.addClass("navbar-travel-container");
+    // }
 
 });

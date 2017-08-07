@@ -12,7 +12,7 @@ $(document).ready(function(){
                 this.$window= $(window);
                 this.$dropdown = $("ul.nav li .dropdown");
                 // this.$dropdownMenu = this.$dropdown.find(".dropdown-menu");
-                console.log(this.$dropdown);
+                
             },
             bindEvents: function () {
                 // this.$dropdown.hover(this.hoverFadeIn.bind(this), this.hoverFadeOut.bind(this));
