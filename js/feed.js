@@ -13,6 +13,7 @@ $(document).ready(function(){
       resolution: 'standard_resolution'
     });
     feed.run();
+
   } else if ($window.innerWidth() > 543) {
     var feed2 = new Instafeed({
       clientId: 'de20c8b1dc394285aa23db84b32cc803',
@@ -26,8 +27,6 @@ $(document).ready(function(){
     });
     feed2.run();
   }
-
-
 
   // end instafeed
 });
