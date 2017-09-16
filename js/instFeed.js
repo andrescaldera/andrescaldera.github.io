@@ -3,8 +3,8 @@ $(document).ready(function(){
   // instafeed
   if ($window.innerWidth() <= 543) {
     var feed = new Instafeed({
-      clientId: 'de20c8b1dc394285aa23db84b32cc803',
-      accessToken: '3457657437.de20c8b.743705c02eb048c69db553ef7b562af1',
+      clientId: '3ba8f299954d45a0af7f8634679b4c8e',
+      accessToken: '3457657437.3ba8f29.28ecae7c9fa945208aa644d30406815e',
       get: 'user',
       userId: '3457657437',
       template: '<div><a href="{{link}}" target="_blank" class="shadow-2"><img src="{{image}}" width="230" height="164"/></a></div>',
@@ -16,8 +16,8 @@ $(document).ready(function(){
 
   } else if ($window.innerWidth() > 543) {
     var feed2 = new Instafeed({
-      clientId: 'de20c8b1dc394285aa23db84b32cc803',
-      accessToken: '3457657437.de20c8b.743705c02eb048c69db553ef7b562af1',
+      clientId: '3ba8f299954d45a0af7f8634679b4c8e',
+      accessToken: '3457657437.3ba8f29.28ecae7c9fa945208aa644d30406815e',
       get: 'user',
       userId: '3457657437',
       template: '<div><a href="{{link}}" target="_blank" class="shadow-2"><img src="{{image}}" width="230" height="164"/></a></div>',
@@ -29,4 +29,9 @@ $(document).ready(function(){
   }
 
   // end instafeed
+
+  //
+  // code=1319208a6bc64eeaad4666424cc5668c
+  // accessToken: 3457657437.3ba8f29.28ecae7c9fa945208aa644d30406815e
+  //
 });
