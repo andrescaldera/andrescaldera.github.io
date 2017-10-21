@@ -1,0 +1,92 @@
+{
+  "title":"Travel",
+  "description":"Great spontaneous moments remain longer in our memories and as a documentarist, that’s what I specialize in capturing.",
+  "description_2":"There are 2 approaches to our session, photo-tours and paparazzi style. In the photo-tour we visit the best places of the city while discussing and capturing great moments. The “paparazzi” approach gives you more liberty of doing anything you’d wish while I capture natural moments without intruding. Together we work out what is best for you and your plans.",
+  "cover":
+    {
+      "src_small":"imgs/galleries/Travel_Profile_BCN/fullsize/travel_profile_fullsize-00001.jpg",
+      "src_big":"imgs/galleries/fire_skies/cover/Fire_sky_caldera_cover.jpg",
+      "alt":"Agbar Jump"
+    },
+  "imgs": [
+    {
+      "src_fullsize": "imgs/galleries/Travel_Profile_BCN/Small Versions/travel_profile_fullsize-00002.jpg",
+      "src_thumnail": "imgs/galleries/Travel_Profile_BCN/Small Versions/travel_profile_thumb-00002.jpg",
+      "title": "Portrait at Barceloneta",
+      "alt":"Travel album"
+    },
+    {
+      "src_fullsize": "imgs/galleries/Travel_Profile_BCN/Small Versions/travel_profile_fullsize-00002.jpg",
+      "src_thumnail": "imgs/galleries/Travel_Profile_BCN/Small Versions/travel_profile_thumb-00002.jpg",
+      "title": "Faces at Pavilion Montjuic",
+      "alt":"Travel album"
+    },
+    {
+      "src_fullsize": "imgs/galleries/Travel_Profile_BCN/Small Versions/travel_profile_fullsize-00003.jpg",
+      "src_thumnail": "imgs/galleries/Travel_Profile_BCN/Small Versions/travel_profile_thumb-00003.jpg",
+      "title": "Maremagnum",
+      "alt":"Travel album"
+    },
+    {
+      "src_fullsize": "imgs/galleries/Travel_Profile_BCN/Small Versions/travel_profile_fullsize-00004.jpg",
+      "src_thumnail": "imgs/galleries/Travel_Profile_BCN/Small Versions/travel_profile_thumb-00004.jpg",
+      "title": "Colon Drive",
+      "alt":"Travel album"
+    },
+    {
+      "src_fullsize": "imgs/galleries/Travel_Profile_BCN/Small Versions/travel_profile_fullsize-00005.jpg",
+      "src_thumnail": "imgs/galleries/Travel_Profile_BCN/Small Versions/travel_profile_thumb-00005.jpg",
+      "title": "Discover Costa Brava",
+      "alt":"Travel album"
+    },
+    {
+      "src_fullsize": "imgs/galleries/Travel_Profile_BCN/Small Versions/travel_profile_fullsize-00006.jpg",
+      "src_thumnail": "imgs/galleries/Travel_Profile_BCN/Small Versions/travel_profile_thumb-00006.jpg",
+      "title": "Capture Sagrada Familia",
+      "alt":"Travel album"
+    },
+    {
+      "src_fullsize": "imgs/galleries/Travel_Profile_BCN/Small Versions/travel_profile_fullsize-00007.jpg",
+      "src_thumnail": "imgs/galleries/Travel_Profile_BCN/Small Versions/travel_profile_thumb-00007.jpg",
+      "title": "Paseo Colon",
+      "alt":"Travel album"
+    }
+    ,
+    {
+      "src_fullsize": "imgs/galleries/Travel_Profile_BCN/Small Versions/travel_profile_fullsize-00008.jpg",
+      "src_thumnail": "imgs/galleries/Travel_Profile_BCN/Small Versions/travel_profile_thumb-00008.jpg",
+      "title": "Maremagnum",
+      "alt":"Travel album"
+    },
+    {
+      "src_fullsize": "imgs/galleries/Travel_Profile_BCN/Small Versions/travel_profile_fullsize-00009.jpg",
+      "src_thumnail": "imgs/galleries/Travel_Profile_BCN/Small Versions/travel_profile_thumb-00009.jpg",
+      "title": "Costa Brava",
+      "alt":"Travel album"
+    },
+    {
+      "src_fullsize": "imgs/galleries/Travel_Profile_BCN/Small Versions/travel_profile_fullsize-000010.jpg",
+      "src_thumnail": "imgs/galleries/Travel_Profile_BCN/Small Versions/travel_profile_thumb-000010.jpg",
+      "title": "Park_Guell_Gardens",
+      "alt":"Travel album"
+    },
+    {
+      "src_fullsize": "imgs/galleries/Travel_Profile_BCN/Small Versions/travel_profile_fullsize-000011.jpg",
+      "src_thumnail": "imgs/galleries/Travel_Profile_BCN/Small Versions/travel_profile_thumb-000011.jpg",
+      "title": "Couple at Colon Drive",
+      "alt":"Travel album"
+    },
+    {
+      "src_fullsize": "imgs/galleries/Travel_Profile_BCN/Small Versions/travel_profile_fullsize-000012.jpg",
+      "src_thumnail": "imgs/galleries/Travel_Profile_BCN/Small Versions/travel_profile_thumb-000012.jpg",
+      "title": "Discover Agbar Tower",
+      "alt":"Travel album"
+    },
+    {
+      "src_fullsize": "imgs/galleries/Travel_Profile_BCN/Small Versions/travel_profile_fullsize-000013.jpg",
+      "src_thumnail": "imgs/galleries/Travel_Profile_BCN/Small Versions/travel_profile_thumb-000013.jpg",
+      "title": "Session photo",
+      "alt":"Travel album"
+    }
+  ]
+}

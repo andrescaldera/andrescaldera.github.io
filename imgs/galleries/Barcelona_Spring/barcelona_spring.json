@@ -1,0 +1,116 @@
+{
+  "title":"Barcelona Spring Shine",
+  "description":"It’s easy to understand why spring season is so loved by many, colors re-appear everywhere and the temperature settles to always enjoy being outside! This collection shows iconic corners of the mediterranean capital in it’s finest colors!",
+  "cover":
+    {
+      "src_small":"imgs/galleries/Barcelona_Spring/BCN_covers/BCN_caldera_smallcover.jpg",
+      "src_big":"imgs/galleries/Barcelona_Spring/BCN_covers/bcn_caldera_BIGcover.jpg",
+      "alt":"Barcelona spring album"
+    },
+  "imgs": [
+    {
+      "src_fullsize": "imgs/galleries/Barcelona_Spring/BCN_1024/bcn_caldera_photo-1.jpg",
+      "src_thumnail": "imgs/galleries/Barcelona_Spring/BCN_512/bcn_caldera_photo-1.jpg",
+      "title": "Reflection of Sagrada Familia",
+      "alt":"Image of Barcelona Spring Shine album"
+    },
+    {
+      "src_fullsize": "imgs/galleries/Barcelona_Spring/BCN_1024/bcn_caldera_photo-2.jpg",
+      "src_thumnail": "imgs/galleries/Barcelona_Spring/BCN_512/bcn_caldera_photo-2.jpg",
+      "title": "Wake up Barcelona",
+      "alt":"Image of Barcelona Spring Shine album"
+    },
+    {
+      "src_fullsize": "imgs/galleries/Barcelona_Spring/BCN_1024/bcn_caldera_photo-3.jpg",
+      "src_thumnail": "imgs/galleries/Barcelona_Spring/BCN_512/bcn_caldera_photo-3.jpg",
+      "title": "Casa Batlló Facade",
+      "alt":"Image of Barcelona Spring Shine album"
+    },
+    {
+      "src_fullsize": "imgs/galleries/Barcelona_Spring/BCN_1024/bcn_caldera_photo-4.jpg",
+      "src_thumnail": "imgs/galleries/Barcelona_Spring/BCN_512/bcn_caldera_photo-4.jpg",
+      "title": "Photographing Sagrada Familia",
+      "alt":"Image of Barcelona Spring Shine album"
+    },
+    {
+      "src_fullsize": "imgs/galleries/Barcelona_Spring/BCN_1024/bcn_caldera_photo-5.jpg",
+      "src_thumnail": "imgs/galleries/Barcelona_Spring/BCN_512/bcn_caldera_photo-5.jpg",
+      "title": "Night at the Fountains, Montjuic",
+      "alt":"Image of Barcelona Spring Shine album"
+    },
+    {
+      "src_fullsize": "imgs/galleries/Barcelona_Spring/BCN_1024/bcn_caldera_photo-6.jpg",
+      "src_thumnail": "imgs/galleries/Barcelona_Spring/BCN_512/bcn_caldera_photo-6.jpg",
+      "title": "Candy House, Park Guell",
+      "alt":"Image of Barcelona Spring Shine album"
+    },
+    {
+      "src_fullsize": "imgs/galleries/Barcelona_Spring/BCN_1024/bcn_caldera_photo-7.jpg",
+      "src_thumnail": "imgs/galleries/Barcelona_Spring/BCN_512/bcn_caldera_photo-7.jpg",
+      "title": "Walk the lines",
+      "alt":"Image of Barcelona Spring Shine album"
+    }
+    ,
+    {
+      "src_fullsize": "imgs/galleries/Barcelona_Spring/BCN_1024/bcn_caldera_photo-8.jpg",
+      "src_thumnail": "imgs/galleries/Barcelona_Spring/BCN_512/bcn_caldera_photo-8.jpg",
+      "title": "Vela Hotel without its W",
+      "alt":"Image of Barcelona Spring Shine album"
+    },
+    {
+      "src_fullsize": "imgs/galleries/Barcelona_Spring/BCN_1024/bcn_caldera_photo-9.jpg",
+      "src_thumnail": "imgs/galleries/Barcelona_Spring/BCN_512/bcn_caldera_photo-9.jpg",
+      "title": "Sant Pau Modernist Hospital",
+      "alt":"Image of Barcelona Spring Shine album"
+    },
+    {
+      "src_fullsize": "imgs/galleries/Barcelona_Spring/BCN_1024/bcn_caldera_photo-10.jpg",
+      "src_thumnail": "imgs/galleries/Barcelona_Spring/BCN_512/bcn_caldera_photo-10.jpg",
+      "title": "SJump kick Agbar Tower",
+      "alt":"Image of Barcelona Spring Shine album"
+    },
+    {
+      "src_fullsize": "imgs/galleries/Barcelona_Spring/BCN_1024/bcn_caldera_photo-11.jpg",
+      "src_thumnail": "imgs/galleries/Barcelona_Spring/BCN_512/bcn_caldera_photo-11.jpg",
+      "title": "SJump kick Agbar Tower",
+      "alt":"Image of Barcelona Spring Shine album"
+    },
+    {
+      "src_fullsize": "imgs/galleries/Barcelona_Spring/BCN_1024/bcn_caldera_photo-12.jpg",
+      "src_thumnail": "imgs/galleries/Barcelona_Spring/BCN_512/bcn_caldera_photo-12.jpg",
+      "title": "SJump kick Agbar Tower",
+      "alt":"Image of Barcelona Spring Shine album"
+    },
+    {
+      "src_fullsize": "imgs/galleries/Barcelona_Spring/BCN_1024/bcn_caldera_photo-13.jpg",
+      "src_thumnail": "imgs/galleries/Barcelona_Spring/BCN_512/bcn_caldera_photo-13.jpg",
+      "title": "SJump kick Agbar Tower",
+      "alt":"Image of Barcelona Spring Shine album"
+    },
+    {
+      "src_fullsize": "imgs/galleries/Barcelona_Spring/BCN_1024/bcn_caldera_photo-14.jpg",
+      "src_thumnail": "imgs/galleries/Barcelona_Spring/BCN_512/bcn_caldera_photo-14.jpg",
+      "title": "SJump kick Agbar Tower",
+      "alt":"Image of Barcelona Spring Shine album"
+    },
+    {
+      "src_fullsize": "imgs/galleries/Barcelona_Spring/BCN_1024/bcn_caldera_photo-15.jpg",
+      "src_thumnail": "imgs/galleries/Barcelona_Spring/BCN_512/bcn_caldera_photo-15.jpg",
+      "title": "SJump kick Agbar Tower",
+      "alt":"Image of Barcelona Spring Shine album"
+    },
+    {
+      "src_fullsize": "imgs/galleries/Barcelona_Spring/BCN_1024/bcn_caldera_photo-16.jpg",
+      "src_thumnail": "imgs/galleries/Barcelona_Spring/BCN_512/bcn_caldera_photo-16.jpg",
+      "title": "SJump kick Agbar Tower",
+      "alt":"Image of Barcelona Spring Shine album"
+    },
+    {
+      "src_fullsize": "imgs/galleries/Barcelona_Spring/BCN_1024/bcn_caldera_photo-10.jpg",
+      "src_thumnail": "imgs/galleries/Barcelona_Spring/BCN_512/bcn_caldera_photo-10.jpg",
+      "title": "SJump kick Agbar Tower",
+      "alt":"Image of Barcelona Spring Shine album"
+    }
+  ]
+
+}

@@ -1,0 +1,91 @@
+{
+  "title":"Madrid Summer Colors",
+  "description":"I had the opportunity to visit the Spanish capital for a couple of days which I spent moving across the entire city. I learned a few things, firstly that Madrid is incredibly beautiful (especially in summer), also I’d say 2 days is not enough to see it all but then its always good to have reasons to come back. I hope that through these photographs you feel a bit of the magic of the city.",
+  "cover":
+    {
+      "src_small":"imgs/galleries/Madrid_summer/MAD_covers/Madrid_caldera_smallcover.jpg",
+      "src_big":"imgs/galleries/Madrid_summer/MAD_covers/Madrid_caldera_BIGcover.jpg",
+      "alt":"Madrid Summer Colors album"
+    },
+  "imgs": [
+    {
+      "src_fullsize": "imgs/galleries/Madrid_summer/MAD_1024/Madrid_caldera_photo-1.jpg",
+      "src_thumnail": "imgs/galleries/Madrid_summer/MAD_512/Madrid_caldera_photo_512-1.jpg",
+      "title": "Madrid Sunset",
+      "alt":"Image of Madrid Summer Colors album"
+    },
+    {
+      "src_fullsize": "imgs/galleries/Madrid_summer/MAD_1024/Madrid_caldera_photo-2.jpg",
+      "src_thumnail": "imgs/galleries/Madrid_summer/MAD_512/Madrid_caldera_photo_512-2.jpg",
+      "title": "Madrid City Hall at Cibeles",
+      "alt":"Image of Madrid Summer Colors album"
+    },
+    {
+      "src_fullsize": "imgs/galleries/Madrid_summer/MAD_1024/Madrid_caldera_photo-3.jpg",
+      "src_thumnail": "imgs/galleries/Madrid_summer/MAD_512/Madrid_caldera_photo_512-3.jpg",
+      "title": "Crystal Palace",
+      "alt":"Image of Madrid Summer Colors album"
+    },
+    {
+      "src_fullsize": "imgs/galleries/Madrid_summer/MAD_1024/Madrid_caldera_photo-4.jpg",
+      "src_thumnail": "imgs/galleries/Madrid_summer/MAD_512/Madrid_caldera_photo_512-4.jpg",
+      "title": "Royal Palace Reflection",
+      "alt":"Image of Madrid Summer Colors album"
+    },
+    {
+      "src_fullsize": "imgs/galleries/Madrid_summer/MAD_1024/Madrid_caldera_photo-5.jpg",
+      "src_thumnail": "imgs/galleries/Madrid_summer/MAD_512/Madrid_caldera_photo_512-5.jpg",
+      "title": "Debod Reflection",
+      "alt":"Image of Madrid Summer Colors album"
+    },
+    {
+      "src_fullsize": "imgs/galleries/Madrid_summer/MAD_1024/Madrid_caldera_photo-6.jpg",
+      "src_thumnail": "imgs/galleries/Madrid_summer/MAD_512/Madrid_caldera_photo_512-6.jpg",
+      "title": "Madrid City Scape",
+      "alt":"Image of Madrid Summer Colors album"
+    },
+    {
+      "src_fullsize": "imgs/galleries/Madrid_summer/MAD_1024/Madrid_caldera_photo-7.jpg",
+      "src_thumnail": "imgs/galleries/Madrid_summer/MAD_512/Madrid_caldera_photo_512-7.jpg",
+      "title": "Almudena Cathedral",
+      "alt":"Image of Madrid Summer Colors album"
+    }
+    ,
+    {
+      "src_fullsize": "imgs/galleries/Madrid_summer/MAD_1024/Madrid_caldera_photo-8.jpg",
+      "src_thumnail": "imgs/galleries/Madrid_summer/MAD_512/Madrid_caldera_photo_512-8.jpg",
+      "title": "El Retiro Florat",
+      "alt":"Image of Madrid Summer Colors album"
+    },
+    {
+      "src_fullsize": "imgs/galleries/Madrid_summer/MAD_1024/Madrid_caldera_photo-9.jpg",
+      "src_thumnail": "imgs/galleries/Madrid_summer/MAD_512/Madrid_caldera_photo_512-9.jpg",
+      "title": "Almudena Cathedral Front",
+      "alt":"Image of Madrid Summer Colors album"
+    },
+    {
+      "src_fullsize": "imgs/galleries/Madrid_summer/MAD_1024/Madrid_caldera_photo-10.jpg",
+      "src_thumnail": "imgs/galleries/Madrid_summer/MAD_512/Madrid_caldera_photo_512-10.jpg",
+      "title": "El Retiro Gardens",
+      "alt":"Image of Madrid Summer Colors album"
+    },
+    {
+      "src_fullsize": "imgs/galleries/Madrid_summer/MAD_1024/Madrid_caldera_photo-11.jpg",
+      "src_thumnail": "imgs/galleries/Madrid_summer/MAD_512/Madrid_caldera_photo_512-11.jpg",
+      "title": "Corporations on fading Sunset",
+      "alt":"Image of Madrid Summer Colors album"
+    },
+    {
+      "src_fullsize": "imgs/galleries/Madrid_summer/MAD_1024/Madrid_caldera_photo-11.jpg",
+      "src_thumnail": "imgs/galleries/Madrid_summer/MAD_512/Madrid_caldera_photo_512-11.jpg",
+      "title": "Inside Crystal Palace",
+      "alt":"Image of Madrid Summer Colors album"
+    },
+    {
+      "src_fullsize": "imgs/galleries/Madrid_summer/MAD_1024/Madrid_caldera_photo-12.jpg",
+      "src_thumnail": "imgs/galleries/Madrid_summer/MAD_512/Madrid_caldera_photo_512-12.jpg",
+      "title": "Retiro Flower Carpet",
+      "alt":"Image of Madrid Summer Colors album"
+    }
+  ]
+}

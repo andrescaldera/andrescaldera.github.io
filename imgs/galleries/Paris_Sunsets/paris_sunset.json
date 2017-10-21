@@ -1,0 +1,109 @@
+{
+  "title":"Sunsets in Paris",
+  "description":"The Golden hour produces the most intense colors to admire, from the top of the sky down to the ground everything seems to come alive. This is a collection of Sunset photographs I’ve captured all over Paris.",
+  "cover":
+    {
+      "src_small":"imgs/galleries/Paris_Sunsets/ParisSunset_covers/ParisSunset_caldera_smallcover.jpg",
+      "src_big":"imgs/galleries/Paris_Sunsets/ParisSunset_covers/ParisSunset_caldera_BIGcover.jpg",
+      "alt":"Sunsets in Paris album"
+    },
+  "imgs": [
+    {
+      "src_fullsize": "imgs/galleries/Paris_Sunsets/ParisSunset_1024/Paris_Sunset_caldera_photo-1.jpg",
+      "src_thumnail": "imgs/galleries/Paris_Sunsets/ParisSunset_512/ParisSunset_thumbs_caldera_photo-1.jpg",
+      "title": "Light Up over Orange Sky",
+      "alt":"Image of Sunsets in Paris album"
+    },
+    {
+      "src_fullsize": "imgs/galleries/Paris_Sunsets/ParisSunset_1024/Paris_Sunset_caldera_photo-2.jpg",
+      "src_thumnail": "imgs/galleries/Paris_Sunsets/ParisSunset_512/ParisSunset_thumbs_caldera_photo-2.jpg",
+      "title": "Gaze at la Défense",
+      "alt":"Image of Sunsets in Paris album"
+    },
+    {
+      "src_fullsize": "imgs/galleries/Paris_Sunsets/ParisSunset_1024/Paris_Sunset_caldera_photo-3.jpg",
+      "src_thumnail": "imgs/galleries/Paris_Sunsets/ParisSunset_512/ParisSunset_thumbs_caldera_photo-3.jpg",
+      "title": "Sacra-Coeur on Pink Sky",
+      "alt":"Image of Sunsets in Paris album"
+    },
+    {
+      "src_fullsize": "imgs/galleries/Paris_Sunsets/ParisSunset_1024/Paris_Sunset_caldera_photo-4.jpg",
+      "src_thumnail": "imgs/galleries/Paris_Sunsets/ParisSunset_512/ParisSunset_thumbs_caldera_photo-4.jpg",
+      "title": "Sunset over the Seine River",
+      "alt":"Image of Sunsets in Paris album"
+    },
+    {
+      "src_fullsize": "imgs/galleries/Paris_Sunsets/ParisSunset_1024/Paris_Sunset_caldera_photo-5.jpg",
+      "src_thumnail": "imgs/galleries/Paris_Sunsets/ParisSunset_512/ParisSunset_thumbs_caldera_photo-5.jpg",
+      "title": "La Rue de Paris on Gradient Sky",
+      "alt":"Image of Sunsets in Paris album"
+    },
+    {
+      "src_fullsize": "imgs/galleries/Paris_Sunsets/ParisSunset_1024/Paris_Sunset_caldera_photo-6.jpg",
+      "src_thumnail": "imgs/galleries/Paris_Sunsets/ParisSunset_512/ParisSunset_thumbs_caldera_photo-6.jpg",
+      "title": "The Angel of Paris",
+      "alt":"Image of Sunsets in Paris album"
+    },
+    {
+      "src_fullsize": "imgs/galleries/Paris_Sunsets/ParisSunset_1024/Paris_Sunset_caldera_photo-7.jpg",
+      "src_thumnail": "imgs/galleries/Paris_Sunsets/ParisSunset_512/ParisSunset_thumbs_caldera_photo-7.jpg",
+      "title": "Photoman at Notre-Dame",
+      "alt":"Image of Sunsets in Paris album"
+    }
+    ,
+    {
+      "src_fullsize": "imgs/galleries/Paris_Sunsets/ParisSunset_1024/Paris_Sunset_caldera_photo-8.jpg",
+      "src_thumnail": "imgs/galleries/Paris_Sunsets/ParisSunset_512/ParisSunset_thumbs_caldera_photo-8.jpg",
+      "title": "La Roue on a Fire Sky",
+      "alt":"Image of Sunsets in Paris album"
+    },
+    {
+      "src_fullsize": "imgs/galleries/Paris_Sunsets/ParisSunset_1024/Paris_Sunset_caldera_photo-9.jpg",
+      "src_thumnail": "imgs/galleries/Paris_Sunsets/ParisSunset_512/ParisSunset_thumbs_caldera_photo-9.jpg",
+      "title": "Mighty Sunset of The tower",
+      "alt":"Image of Sunsets in Paris album"
+    },
+    {
+      "src_fullsize": "imgs/galleries/Paris_Sunsets/ParisSunset_1024/Paris_Sunset_caldera_photo-10.jpg",
+      "src_thumnail": "imgs/galleries/Paris_Sunsets/ParisSunset_512/ParisSunset_thumbs_caldera_photo-10.jpg",
+      "title": "The Skirts of the Iron Lady",
+      "alt":"Image of Sunsets in Paris album"
+    },
+    {
+      "src_fullsize": "imgs/galleries/Paris_Sunsets/ParisSunset_1024/Paris_Sunset_caldera_photo-11.jpg",
+      "src_thumnail": "imgs/galleries/Paris_Sunsets/ParisSunset_512/ParisSunset_thumbs_caldera_photo-11.jpg",
+      "title": "Sacra-Coeur in all Yellow",
+      "alt":"Image of Sunsets in Paris album"
+    },
+    {
+      "src_fullsize": "imgs/galleries/Paris_Sunsets/ParisSunset_1024/Paris_Sunset_caldera_photo-12.jpg",
+      "src_thumnail": "imgs/galleries/Paris_Sunsets/ParisSunset_512/ParisSunset_thumbs_caldera_photo-12.jpg",
+      "title": "La Défense Skyline",
+      "alt":"Image of Sunsets in Paris album"
+    },
+    {
+      "src_fullsize": "imgs/galleries/Paris_Sunsets/ParisSunset_1024/Paris_Sunset_caldera_photo-13.jpg",
+      "src_thumnail": "imgs/galleries/Paris_Sunsets/ParisSunset_512/ParisSunset_thumbs_caldera_photo-13.jpg",
+      "title": "The Tower and Flags",
+      "alt":"Image of Sunsets in Paris album"
+    },
+    {
+      "src_fullsize": "imgs/galleries/Paris_Sunsets/ParisSunset_1024/Paris_Sunset_caldera_photo-14.jpg",
+      "src_thumnail": "imgs/galleries/Paris_Sunsets/ParisSunset_512/ParisSunset_thumbs_caldera_photo-14.jpg",
+      "title": "Passing boat at Notre-Dame",
+      "alt":"Image of Sunsets in Paris album"
+    },
+    {
+      "src_fullsize": "imgs/galleries/Paris_Sunsets/ParisSunset_1024/Paris_Sunset_caldera_photo-15.jpg",
+      "src_thumnail": "imgs/galleries/Paris_Sunsets/ParisSunset_512/ParisSunset_thumbs_caldera_photo-15.jpg",
+      "title": "Pont de la Concorde",
+      "alt":"Image of Sunsets in Paris album"
+    },
+    {
+      "src_fullsize": "imgs/galleries/Paris_Sunsets/ParisSunset_1024/Paris_Sunset_caldera_photo-16.jpg",
+      "src_thumnail": "imgs/galleries/Paris_Sunsets/ParisSunset_512/ParisSunset_thumbs_caldera_photo-16.jpg",
+      "title": "Paris Exponential’s Beauty",
+      "alt":"Image of Sunsets in Paris album"
+    }
+  ]
+}

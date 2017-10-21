@@ -1,0 +1,75 @@
+{
+  "title":"Banner Photos",
+  "description":"This is a small collection on photographs I’ve chosen for the Website’s banner. I really like them!.",
+  "cover":
+    {
+      "src_small":"iimgs/galleries/banner_photos/banner_cover/Details_sacre_coeur_caldera_cover-1.jpg",
+      "src_big":"imgs/galleries/banner_photos/banner_cover/Details_sacre_coeur_caldera_cover.jpg",
+      "alt":"Banner photos album"
+    },
+  "imgs": [
+    {
+      "src_fullsize": "imgs/galleries/banner_photos/banner_full_size/Banner_Caldera_photo-1.jpg",
+      "src_thumnail": "imgs/galleries/banner_photos/thumbnail/Banner_caldera_thumb-1.jpg-1.jpg",
+      "title": "Sun trapped in Eiffel Tower",
+      "alt":"Image of banner photos album"
+    },
+    {
+      "src_fullsize": "imgs/galleries/banner_photos/banner_full_size/Banner_Caldera_photo-2.jpg",
+      "src_thumnail": "imgs/galleries/banner_photos/thumbnail/Banner_caldera_thumb-1.jpg-2.jpg",
+      "title": "Hidden Temple",
+      "alt":"Image of banner photos album"
+    },
+    {
+      "src_fullsize": "imgs/galleries/banner_photos/banner_full_size/Banner_Caldera_photo-3.jpg",
+      "src_thumnail": "imgs/galleries/banner_photos/thumbnail/Banner_caldera_thumb-1.jpg-3.jpg",
+      "title": "SUP in Annecy",
+      "alt":"Image of banner photos album"
+    },
+    {
+      "src_fullsize": "imgs/galleries/banner_photos/banner_full_size/Banner_Caldera_photo-4.jpg",
+      "src_thumnail": "imgs/galleries/banner_photos/thumbnail/Banner_caldera_thumb-1.jpg-4.jpg",
+      "title": "The Sky Painter",
+      "alt":"Image of banner photos album"
+    },
+    {
+      "src_fullsize": "imgs/galleries/banner_photos/banner_full_size/Banner_Caldera_photo-5.jpg",
+      "src_thumnail": "imgs/galleries/banner_photos/thumbnail/Banner_caldera_thumb-1.jpg-5.jpg",
+      "title": "Mountains in Annecy",
+      "alt":"Image of banner photos album"
+    },
+    {
+      "src_fullsize": "imgs/galleries/banner_photos/banner_full_size/Banner_Caldera_photo-6.jpg",
+      "src_thumnail": "imgs/galleries/banner_photos/thumbnail/Banner_caldera_thumb-1.jpg-6.jpg",
+      "title": "Fisherman heads home",
+      "alt":"Image of banner photos album"
+    },
+    {
+      "src_fullsize": "imgs/galleries/banner_photos/banner_full_size/Banner_Caldera_photo-7.jpg",
+      "src_thumnail": "imgs/galleries/banner_photos/thumbnail/Banner_caldera_thumb-1.jpg-7.jpg",
+      "title": "Pink Eiffel Sunset",
+      "alt":"Image of banner photos album"
+    }
+    ,
+    {
+      "src_fullsize": "imgs/galleries/banner_photos/banner_full_size/Banner_Caldera_photo-8.jpg",
+      "src_thumnail": "imgs/galleries/banner_photos/thumbnail/Banner_caldera_thumb-1.jpg-8.jpg",
+      "title": "Fast forward to Arc",
+      "alt":"Image of banner photos album"
+    },
+    {
+      "src_fullsize": "imgs/galleries/banner_photos/banner_full_size/Banner_Caldera_photo-9.jpg",
+      "src_thumnail": "imgs/galleries/banner_photos/thumbnail/Banner_caldera_thumb-1.jpg-9.jpg",
+      "title": "Mighty MNAC",
+      "alt":"Image of banner photos album"
+    }
+    ,
+    {
+      "src_fullsize": "imgs/galleries/banner_photos/banner_full_size/Banner_Caldera_photo-10.jpg",
+      "src_thumnail": "imgs/galleries/banner_photos/thumbnail/Banner_caldera_thumb-1.jpg-10.jpg",
+      "title": "Sunset Rower",
+      "alt":"Image of banner photos album"
+    }
+  ]
+
+}

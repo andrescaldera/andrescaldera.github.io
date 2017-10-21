@@ -1,0 +1,86 @@
+{
+  "title":"Fire Skies",
+  "description":"Ever-present, variant, passionate, infinite; The sky shows no limits. Most of these are captures of western European skies, during the months of summer/fall.",
+  "cover":
+    {
+      "src_small":"imgs/galleries/fire_skies/cover/Fire_sky_caldera_cover-1.jpg",
+      "src_big":"imgs/galleries/fire_skies/cover/Fire_sky_caldera_cover.jpg",
+      "alt":"Fire Skies album"
+    },
+  "imgs": [
+    {
+      "src_fullsize": "imgs/galleries/fire_skies/full_size/Fire_sky_caldera_photo-1.jpg",
+      "src_thumnail": "imgs/galleries/fire_skies/thumbnail/Fire_sky_caldera_thumb-1.jpg",
+      "title": "Sun trapped in Eiffel Tower",
+      "alt":"Image of Fire Skies album"
+    },
+    {
+      "src_fullsize": "imgs/galleries/fire_skies/full_size/Fire_sky_caldera_photo-2.jpg",
+      "src_thumnail": "imgs/galleries/fire_skies/thumbnail/Fire_sky_caldera_thumb-2.jpg",
+      "title": "Hidden Temple",
+      "alt":"Image of Fire Skies album"
+    },
+    {
+      "src_fullsize": "imgs/galleries/fire_skies/full_size/Fire_sky_caldera_photo-3.jpg",
+      "src_thumnail": "imgs/galleries/fire_skies/thumbnail/Fire_sky_caldera_thumb-3.jpg",
+      "title": "SUP in Annecy",
+      "alt":"Image of Fire Skies album"
+    },
+    {
+      "src_fullsize": "imgs/galleries/fire_skies/full_size/Fire_sky_caldera_photo-4.jpg",
+      "src_thumnail": "imgs/galleries/fire_skies/thumbnail/Fire_sky_caldera_thumb-4.jpg",
+      "title": "The Sky Painter",
+      "alt":"Image of Fire Skies album"
+    },
+    {
+      "src_fullsize": "imgs/galleries/fire_skies/full_size/Fire_sky_caldera_photo-5.jpg",
+      "src_thumnail": "imgs/galleries/fire_skies/thumbnail/Fire_sky_caldera_thumb-5.jpg",
+      "title": "Mountains in Annecy",
+      "alt":"Image of Fire Skies album"
+    },
+    {
+      "src_fullsize": "imgs/galleries/fire_skies/full_size/Fire_sky_caldera_photo-6.jpg",
+      "src_thumnail": "imgs/galleries/fire_skies/thumbnail/Fire_sky_caldera_thumb-6.jpg",
+      "title": "Fisherman heads home",
+      "alt":"Image of Fire Skies album"
+    },
+    {
+      "src_fullsize": "imgs/galleries/fire_skies/full_size/Fire_sky_caldera_photo-7.jpg",
+      "src_thumnail": "imgs/galleries/fire_skies/thumbnail/Fire_sky_caldera_thumb-7.jpg",
+      "title": "Pink Eiffel Sunset",
+      "alt":"Image of Fire Skies album"
+    }
+    ,
+    {
+      "src_fullsize": "imgs/galleries/fire_skies/full_size/Fire_sky_caldera_photo-8.jpg",
+      "src_thumnail": "imgs/galleries/fire_skies/thumbnail/Fire_sky_caldera_thumb-8.jpg",
+      "title": "Fast forward to Arc",
+      "alt":"Image of Fire Skies album"
+    },
+    {
+      "src_fullsize": "imgs/galleries/fire_skies/full_size/Fire_sky_caldera_photo-9.jpg",
+      "src_thumnail": "imgs/galleries/fire_skies/thumbnail/Fire_sky_caldera_thumb-9.jpg",
+      "title": "Mighty MNAC",
+      "alt":"Image of Fire Skies album"
+    },
+    {
+      "src_fullsize": "imgs/galleries/fire_skies/full_size/Fire_sky_caldera_photo-10.jpg",
+      "src_thumnail": "imgs/galleries/fire_skies/thumbnail/Fire_sky_caldera_thumb-10.jpg",
+      "title": "Sunset Rower",
+      "alt":"Image of Fire Skies album"
+    },
+    {
+      "src_fullsize": "imgs/galleries/fire_skies/full_size/Fire_sky_caldera_photo-11.jpg",
+      "src_thumnail": "imgs/galleries/fire_skies/thumbnail/Fire_sky_caldera_thumb-11.jpg",
+      "title": "Sunset Rower",
+      "alt":"Image of Fire Skies album"
+    },
+    {
+      "src_fullsize": "imgs/galleries/fire_skies/full_size/Fire_sky_caldera_photo-12.jpg",
+      "src_thumnail": "imgs/galleries/fire_skies/thumbnail/Fire_sky_caldera_thumb-12.jpg",
+      "title": "Sunset Rower",
+      "alt":"Image of Fire Skies album"
+    }
+  ]
+
+}

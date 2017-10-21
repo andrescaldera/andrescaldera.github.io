@@ -1,0 +1,55 @@
+{
+  "title":"London",
+  "description":"The most incredible city I’ve ever visited. The few days I spent there were not nearly enough to capture its mighty vibe, these pictures slightly hint the variety of sights you find there.",
+  "cover":
+    {
+      "src_small":"iimgs/galleries/London/London_covers/London_caldera_smallcover.jpg",
+      "src_big":"imgs/galleries/London/London_covers/London_caldera_BIGcover.jpg",
+      "alt":"London album"
+    },
+  "imgs": [
+    {
+      "src_fullsize": "imgs/galleries/London/London_1024/London_caldera_photo-1.jpg",
+      "src_thumnail": "imgs/galleries/London/London_512/London_thumbs_caldera_photo-1.jpg",
+      "title": "Buckingham Palace at Sunset",
+      "alt":"Image of London album"
+    },
+    {
+      "src_fullsize": "mgs/galleries/London/London_1024/London_caldera_photo-2.jpg",
+      "src_thumnail": "imgs/galleries/London/London_512/London_thumbs_caldera_photo-2.jpg",
+      "title": "Look through London",
+      "alt":"Image of London album"
+    },
+    {
+      "src_fullsize": "mgs/galleries/London/London_1024/London_caldera_photo-3.jpg",
+      "src_thumnail": "imgs/galleries/London/London_512/London_thumbs_caldera_photo-3.jpg",
+      "title": "Hidden Palace",
+      "alt":"Image of London album"
+    },
+    {
+      "src_fullsize": "mgs/galleries/London/London_1024/London_caldera_photo-4.jpg",
+      "src_thumnail": "imgs/galleries/London/London_512/London_thumbs_caldera_photo-4.jpg",
+      "title": "Typical London",
+      "alt":"Image of London album"
+    },
+    {
+      "src_fullsize": "mgs/galleries/London/London_1024/London_caldera_photo-5.jpg",
+      "src_thumnail": "imgs/galleries/London/London_512/London_thumbs_caldera_photo-5.jpg",
+      "title": "Sunset at Rest",
+      "alt":"Image of London album"
+    },
+    {
+      "src_fullsize": "mgs/galleries/London/London_1024/London_caldera_photo-6.jpg",
+      "src_thumnail": "imgs/galleries/London/London_512/London_thumbs_caldera_photo-6.jpg",
+      "title": "Over the Thames River",
+      "alt":"Image of London album"
+    },
+    {
+      "src_fullsize": "mgs/galleries/London/London_1024/London_caldera_photo-7.jpg",
+      "src_thumnail": "imgs/galleries/London/London_512/London_thumbs_caldera_photo-7.jpg",
+      "title": "Moon by Piccadilly",
+      "alt":"Image of London album"
+    }
+  ]
+
+}

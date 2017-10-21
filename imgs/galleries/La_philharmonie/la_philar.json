@@ -1,0 +1,85 @@
+{
+  "title":"Light at La Défense",
+  "description":"La splanade de la Défense is a large area in Paris where modern buildings impose a corporate feel hard to ignore. This is a series of pictures I took during a bright day, admiring how the Architecture played with the variant colors and light.",
+  "cover":
+    {
+      "src_small":"imgs/galleries/fire_skies/cover/Fire_sky_caldera_cover-1.jpg",
+      "src_big":"imgs/galleries/fire_skies/cover/Fire_sky_caldera_cover.jpg",
+      "alt":"Light at La Défense album"
+    },
+  "imgs": [
+    {
+      "src_fullsize": "imgs/galleries/La_defense/LaDef_1024/La_Defense_caldera_photo-1.jpg",
+      "src_thumnail": "imgs/galleries/La_philharmonie/La_Phi_512/Philharmonie_thumbs_caldera_photo-1.jpg",
+      "title": "Pastel Sky Lines",
+      "alt":"Image of Light at La Défense album"
+    },
+    {
+      "src_fullsize": "imgs/galleries/La_defense/LaDef_1024/La_Defense_caldera_photo-2.jpg",
+      "src_thumnail": "imgs/galleries/La_philharmonie/La_Phi_512/Philharmonie_thumbs_caldera_photo-2.jpg",
+      "title": "Purple Valley",
+      "alt":"Image of Light at La Défense album"
+    },
+    {
+      "src_fullsize": "imgs/galleries/La_defense/LaDef_1024/La_Defense_caldera_photo-3.jpg",
+      "src_thumnail": "imgs/galleries/La_philharmonie/La_Phi_512/Philharmonie_thumbs_caldera_photo-3.jpg",
+      "title": "Cylinder Building",
+      "alt":"Image of Light at La Défense album"
+    },
+    {
+      "src_fullsize": "imgs/galleries/La_defense/LaDef_1024/La_Defense_caldera_photo-4.jpg",
+      "src_thumnail": "imgs/galleries/La_philharmonie/La_Phi_512/Philharmonie_thumbs_caldera_photo-4.jpg",
+      "title": "Arrow to the Right",
+      "alt":"Image of Light at La Défense album"
+    },
+    {
+      "src_fullsize": "imgs/galleries/La_defense/LaDef_1024/La_Defense_caldera_photo-5.jpg",
+      "src_thumnail": "imgs/galleries/La_philharmonie/La_Phi_512/Philharmonie_thumbs_caldera_photo-5.jpg",
+      "title": "Missing slice",
+      "alt":"Image of Light at La Défense album"
+    },
+    {
+      "src_fullsize": "imgs/galleries/La_defense/LaDef_1024/La_Defense_caldera_photo-6.jpg",
+      "src_thumnail": "imgs/galleries/La_philharmonie/La_Phi_512/Philharmonie_thumbs_caldera_photo-6.jpg",
+      "title": "La Defense Lines",
+      "alt":"Image of Light at La Défense album"
+    },
+    {
+      "src_fullsize": "imgs/galleries/La_defense/LaDef_1024/La_Defense_caldera_photo-7.jpg",
+      "src_thumnail": "imgs/galleries/La_philharmonie/La_Phi_512/Philharmonie_thumbs_caldera_photo-7.jpg",
+      "title": "Planet on Pastel Sky",
+      "alt":"Image of Light at La Défense album"
+    }
+    ,
+    {
+      "src_fullsize": "imgs/galleries/La_defense/LaDef_1024/La_Defense_caldera_photo-8.jpg",
+      "src_thumnail": "imgs/galleries/La_philharmonie/La_Phi_512/Philharmonie_thumbs_caldera_photo-8.jpg",
+      "title": "M marks the spot",
+      "alt":"Image of Light at La Défense album"
+    },
+    {
+      "src_fullsize": "imgs/galleries/La_defense/LaDef_1024/La_Defense_caldera_photo-9.jpg",
+      "src_thumnail": "imgs/galleries/La_philharmonie/La_Phi_512/Philharmonie_thumbs_caldera_photo-9.jpg",
+      "title": "Pastel Sunset Full",
+      "alt":"Image of Light at La Défense album"
+    },
+    {
+      "src_fullsize": "imgs/galleries/La_defense/LaDef_1024/La_Defense_caldera_photo-10.jpg",
+      "src_thumnail": "imgs/galleries/La_philharmonie/La_Phi_512/Philharmonie_thumbs_caldera_photo-10.jpg",
+      "title": "Trouble Cube",
+      "alt":"Image of Light at La Défense album"
+    },
+    {
+      "src_fullsize": "imgs/galleries/La_defense/LaDef_1024/La_Defense_caldera_photo-11.jpg",
+      "src_thumnail": "imgs/galleries/La_philharmonie/La_Phi_512/Philharmonie_thumbs_caldera_photo-11.jpg",
+      "title": "Corporations on fading Sunset",
+      "alt":"Image of Light at La Défense album"
+    },
+    {
+      "src_fullsize": "imgs/galleries/La_defense/LaDef_1024/La_Defense_caldera_photo-11.jpg",
+      "src_thumnail": "imgs/galleries/La_philharmonie/La_Phi_512/Philharmonie_thumbs_caldera_photo-11.jpg",
+      "title": "Corporations on fading Sunset",
+      "alt":"Image of Light at La Défense album"
+    }
+  ]
+}
