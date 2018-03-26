@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Hanldebars Test</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.11/handlebars.min.js"></script>
+    <script type="text/javascript" src="hbtest.js"></script>
+  </head>
+  <body>
+    <h1>Hola</h1>
+
+    <script id="hbtemplate" type="text/x-handlebars-template">
+      {{#each imgs}}
+
+        <a title={{title}} href={{src_fullsize}} class="swipebox" rel="gallery">
+          <img src={{src_thumnail}} alt={{alt}}>
+          <p>{{title}}</p>
+        </a>
+
+      {{/each}}
+    </script>
+
+    <div class="content"></div>
+  </body>
+</html>

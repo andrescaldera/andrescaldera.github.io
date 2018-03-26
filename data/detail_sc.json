@@ -1,0 +1,49 @@
+{
+  "title":"Details of the Sacre-Coeur",
+  "description":"The Basilica is mostly built from white stone and during sunsets I began to notice how its surface reflects the colored light it receives. When placed against the colored sky it makes a quite natural game of colors",
+  "cover":
+    {
+      "src_small":"/imgs/galleries/details_SC/cover/Details_sacre_coeur_caldera_cover-1.jpg",
+      "src_big":"/imgs/galleries/details_SC/cover/Details_sacre_coeur_caldera_cover.jpg",
+      "alt":"Details of the Sacre-Coeur album"
+    },
+  "imgs": [
+    {
+      "src_fullsize": "/imgs/galleries/details_SC/full_size/Details_sacre_coeur_caldera_big-1.jpg",
+      "src_thumnail": "/imgs/galleries/details_SC/thumbnail/Details_sacre_coeur_caldera_photo_thumb-1.jpg",
+      "title": "Sacre-Coeur Angel",
+      "alt":"ImageofDetailsoftheSacre-Coeur"
+    },
+    {
+      "src_fullsize": "/imgs/galleries/details_SC/full_size/Details_sacre_coeur_caldera_big-2.jpg",
+      "src_thumnail": "/imgs/galleries/details_SC/thumbnail/Details_sacre_coeur_caldera_photo_thumb-2.jpg",
+      "title": "Sacre-Coeur House",
+      "alt":"Image of Details of the Sacre-Coeur"
+    },
+    {
+      "src_fullsize": "/imgs/galleries/details_SC/full_size/Details_sacre_coeur_caldera_big-3.jpg",
+      "src_thumnail": "/imgs/galleries/details_SC/thumbnail/Details_sacre_coeur_caldera_photo_thumb-3.jpg",
+      "title": "Moon & Colored Concrete",
+      "alt":"Image of Details of the Sacre-Coeur"
+    },
+    {
+      "src_fullsize": "/imgs/galleries/details_SC/full_size/Details_sacre_coeur_caldera_big-4.jpg",
+      "src_thumnail": "/imgs/galleries/details_SC/thumbnail/Details_sacre_coeur_caldera_photo_thumb-4.jpg",
+      "title": "Twilight over the main Dome",
+      "alt":"Image of Details of the Sacre-Coeur"
+    },
+    {
+      "src_fullsize": "/imgs/galleries/details_SC/full_size/Details_sacre_coeur_caldera_big-5.jpg",
+      "src_thumnail": "/imgs/galleries/details_SC/thumbnail/Details_sacre_coeur_caldera_photo_thumb-5.jpg",
+      "title": "Twilight over the main Dome",
+      "alt":"Image of Details of the Sacre-Coeur"
+    },
+    {
+      "src_fullsize": "/imgs/galleries/details_SC/full_size/Details_sacre_coeur_caldera_big-6.jpg",
+      "src_thumnail": "/imgs/galleries/details_SC/thumbnail/Details_sacre_coeur_caldera_photo_thumb-6.jpg",
+      "title": "Sacre-Coeur Bottom view",
+      "alt":"Image of Details of the Sacre-Coeur"
+    }
+  ]
+
+}
