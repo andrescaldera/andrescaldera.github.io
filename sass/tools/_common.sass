@@ -1,7 +1,7 @@
 .shadow-1
-  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2)
+  box-shadow: $shadow--1
 .shadow-2
-  box-shadow: 0 6px 10px 0 rgba(0,0,0,0.14), 0 1px 18px 0 rgba(0,0,0,0.12), 0 3px 5px -1px rgba(0,0,0,0.3)
+  box-shadow: $shadow--2
 
 img
   width: 100%
@@ -64,10 +64,10 @@ hr
 .hover
   text-decoration: none
   color          : inherit
-  opacity        : .8
-  transition     : opacity .2s ease-in-out
+  box-shadow: $shadow--1
+  transition: box-shadow .2s ease-in-out
   &:hover
-    opacity      : 1
+    box-shadow: $shadow--2
 
 .btn-default
   background-color: $whitef5
@@ -75,7 +75,7 @@ hr
   padding-top     : 3px
   padding-bottom  : 5px
   border: none
-  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2)
+  box-shadow: $shadow--1
   color: $whitef5
   background-color: $redDark
   transition: box-shadow .2s ease-in-out
@@ -83,7 +83,7 @@ hr
     // border-color    : $whitef5
     color           : $whitef5
     background-color: $redDark
-    box-shadow: 0 6px 10px 0 rgba(0,0,0,0.14), 0 1px 18px 0 rgba(0,0,0,0.12), 0 3px 5px -1px rgba(0,0,0,0.3)
+    box-shadow: $shadow--2
   &:active
     box-shadow: none
     background: transparent

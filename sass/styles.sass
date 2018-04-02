@@ -1,3 +1,5 @@
+@import "tools/_colors-variables"
+@import "tools/_common"
 ::root
   font-size: 16px
 *
@@ -8,15 +10,14 @@ html
 body
   font-family: 'Arsenal', sans-serif
   margin: 0
-  background-color: #f5f5f5
-  color: #464646
+  background-color: $whitef5
+  color: $footerBgGray
   overflow-x: hidden
   font-size: 16px
   min-height: 100vh
 
-@import "tools/_colors-variables"
-
-@import "tools/_common"
+.justified-gallery
+  overflow: visible
 
 @import "header/_navbar"
 
